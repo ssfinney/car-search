@@ -49,13 +49,13 @@ class TargetSpec:
 SEARCH_TARGETS: List[TargetSpec] = [
     # Primary Targets
     TargetSpec(
-        name="2021-2022 Highlander XLE",
+        name="2020-2022 Highlander XLE",
         make="Toyota",
         model="Highlander",
-        years=[2021, 2022],
+        years=[2020, 2021, 2022],
         target_trims=["XLE"],
         category="primary",
-        notes="V6 gas preferred; captain's configuration required."
+        notes="V6 gas preferred; captain's configuration required. 2020 redesign bridges 2019 cash preservation and 2021 modern safety."
     ),
     TargetSpec(
         name="2023 Pilot EX-L 7-Passenger",

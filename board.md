@@ -24,6 +24,8 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | Ed Voyles Kia, Smyrna | 2022 CX-9 Touring Plus AWD | $24,898 ($25,995 dealer total) | 63,824 | lead | [candidates/smyrna-2022-cx-9-touring-plus.md](candidates/smyrna-2022-cx-9-touring-plus.md) |
 | CarMax, Buford | 2023 Ascent Limited 7-passenger AWD | $26,998 | 52,536 | lead | [candidates/buford-2023-ascent-limited.md](candidates/buford-2023-ascent-limited.md) |
 | Gerald Jones Mazda, Augusta | 2023 Telluride SX FWD | $27,771 ($28,360 w/fee) | 78,633 | lead | [candidates/augusta-2023-telluride-sx.md](candidates/augusta-2023-telluride-sx.md) |
+| Jim Ellis Toyota, McDonough | 2020 Highlander XLE FWD | $27,825 | 79,421 | lead | [candidates/mcdonough-2020-highlander-xle.md](candidates/mcdonough-2020-highlander-xle.md) |
+| AutoNation Toyota, Buford | 2020 Highlander XLE FWD | $26,189 | 107,372 | lead | [candidates/buford-2020-highlander-xle.md](candidates/buford-2020-highlander-xle.md) |
 
 Eliminated: see `eliminated/` (Canton 2016 Elite; Alpharetta 2021 Highlander XLE).
 
