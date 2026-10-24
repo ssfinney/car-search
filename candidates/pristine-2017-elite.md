@@ -1,6 +1,6 @@
 # 2017 Honda Pilot Elite AWD — Pristine Cars, Marietta
 
-- **Status:** verified
+- **Status:** vin-checked
 - **Dealer/location:** Pristine Cars, Marietta GA
 - **Price:** $18,590 total ($17,500 + $799 doc + $289 filing)
 - **Mileage:** 119,811 (listing also shows 119,675)
@@ -18,3 +18,4 @@
 ## Log
 
 - 2026-10-24 — File seeded from board ranked #1 (2026-10-22). Model-year NHTSA campaigns for 2017 Pilot (not VIN-specific open recalls): 21V932000 hood, 23V858000 fuel pump, 26V332000 airbag sensor, 26V365000 rear subframe.
+- 2026-10-24 — Restaged from retired `verified` to `vin-checked` in the status-vocabulary cleanup. Muse's VIN check (2026-10-24): VIN 5FNYF6H00HB101335 decodes as 2017 HONDA Pilot, Trim Elite, AWD, 9-speed (ZF), ErrorCode 0 (see history/pristine-2017-elite/vin-check-2026-10-24.md). Open history items remain gates: the dealer's free full history report with accident detail (Issue #2), timing-belt documentation, and independent PPI.

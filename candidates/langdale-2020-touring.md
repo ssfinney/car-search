@@ -1,6 +1,6 @@
 # 2020 Honda Pilot Touring AWD — Langdale Kia, Valdosta
 
-- **Status:** verified
+- **Status:** vin-checked
 - **Dealer/location:** Langdale Kia, Valdosta GA
 - **Price:** $26,416.36 OTD (user-provided quote; supersedes the earlier $25,072 + $849 doc pre-tax figure)
 - **Mileage:** 69,487
@@ -30,3 +30,4 @@
 - 2026-10-24 — File seeded. Note: this vehicle is under a silent price/availability watch run by Muse in chat (notify only on price move, fee change, or sale). Repo updates must not duplicate that watch.
 - 2026-10-24 — Price updated to the user-provided quote of $26,416.36 OTD. `PARETO_GUIDE.md` names this car the concrete lower-cost benchmark: $182/month with $17k down. CARFAX contents still unread and timing-belt status still unverified — both gates stand.
 - 2026-10-24 — Workbook shortlist detail appended (see section above): contact Brandon 229-210-9651; workbook reports 2 owners / no reported accidents; quote breakdown $23,723 + $849 + $1,725.36 + $119 = $26,416.36 recorded (arithmetic reconciles; quote image not independently inspected). Discrepancy flagged: workbook advertised $25,072 vs quote selling price $23,723 — to confirm. Stephen's still-needed list added to gates: PPI, full history review, Honda VIN campaign printout, transmission/transfer/rear-differential fluid records, OTD-with-outside-financing confirmation.
+- 2026-10-24 — Restaged from retired `verified` to `vin-checked` in the status-vocabulary cleanup. Muse's VIN check (2026-10-24): VIN 5FNYF6H64LB035420 decodes as 2020 HONDA Pilot, Trim TOURING-7, AWD, 9-speed, ErrorCode 0 (see history/langdale-2020-touring/vin-check-2026-10-24.md). The VIN/recall portion of Muse's stage is complete; this status is NOT history-complete — CARFAX contents are still unread (Issue #5) and a Honda VIN-specific campaign-status printout remains a gate.

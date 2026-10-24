@@ -4,13 +4,13 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 
 | Candidate | Year/Trim | Price (real/OTD where known) | Miles | Status | File |
 |---|---|---|---|---|---|
-| Pristine Cars, Marietta | 2017 Pilot Elite AWD | $18,590 total | 119,811 | verified | [candidates/pristine-2017-elite.md](candidates/pristine-2017-elite.md) |
-| Langdale Kia, Valdosta | 2020 Pilot Touring AWD | $26,416.36 OTD (user-provided quote) | 69,487 | verified | [candidates/langdale-2020-touring.md](candidates/langdale-2020-touring.md) |
-| Oxmoor Chrysler | 2023 Pilot EX-L 7-passenger FWD | $29,199 before government charges (not a binding OTD quote) | 80,817 | lead | [candidates/oxmoor-2023-pilot-exl.md](candidates/oxmoor-2023-pilot-exl.md) |
-| Landa Cars, Alpharetta | 2020 Pilot Touring FWD | $23,494 all-in | 87,937 | verified | [candidates/landa-2020-touring.md](candidates/landa-2020-touring.md) |
-| Peach State Motors, Acworth | 2017 Pilot Elite | ~$21,400 real | 108,911 | verified | [candidates/acworth-2017-elite.md](candidates/acworth-2017-elite.md) |
-| Sutton Acura, Macon | 2017 Pilot Elite | $24,639 all-in | 68,679 | verified | [candidates/sutton-2017-elite.md](candidates/sutton-2017-elite.md) |
-| Group 1 Toyota, Stone Mountain | 2020 Pilot Black Edition AWD | $27,192 all-in | 78,684 | verified | [candidates/stone-mountain-2020-black-edition.md](candidates/stone-mountain-2020-black-edition.md) |
+| Pristine Cars, Marietta | 2017 Pilot Elite AWD | $18,590 total | 119,811 | vin-checked | [candidates/pristine-2017-elite.md](candidates/pristine-2017-elite.md) |
+| Langdale Kia, Valdosta | 2020 Pilot Touring AWD | $26,416.36 OTD (user-provided quote) | 69,487 | vin-checked | [candidates/langdale-2020-touring.md](candidates/langdale-2020-touring.md) |
+| Oxmoor Chrysler | 2023 Pilot EX-L 7-passenger FWD | $29,199 before government charges (not a binding OTD quote) | 80,817 | vin-checked | [candidates/oxmoor-2023-pilot-exl.md](candidates/oxmoor-2023-pilot-exl.md) |
+| Landa Cars, Alpharetta | 2020 Pilot Touring FWD | $23,494 all-in | 87,937 | lead | [candidates/landa-2020-touring.md](candidates/landa-2020-touring.md) |
+| Peach State Motors, Acworth | 2017 Pilot Elite | ~$21,400 real | 108,911 | lead | [candidates/acworth-2017-elite.md](candidates/acworth-2017-elite.md) |
+| Sutton Acura, Macon | 2017 Pilot Elite | $24,639 all-in | 68,679 | lead | [candidates/sutton-2017-elite.md](candidates/sutton-2017-elite.md) |
+| Group 1 Toyota, Stone Mountain | 2020 Pilot Black Edition AWD | $27,192 all-in | 78,684 | lead | [candidates/stone-mountain-2020-black-edition.md](candidates/stone-mountain-2020-black-edition.md) |
 | Carvana | 2016 Pilot Elite AWD | $18,590 (~$20,500 sorted) | 109,563 | lead | [candidates/carvana-2016-elite.md](candidates/carvana-2016-elite.md) |
 | Monroe | 2019 Highlander Limited Platinum FWD | $21,500 | 122,699 | lead | [candidates/monroe-2019-highlander-platinum.md](candidates/monroe-2019-highlander-platinum.md) |
 | 1st Choice Automotive, Atlanta | 2021 Highlander Limited | $26,999–27,999 | 77,502 | lead | [candidates/first-choice-2021-highlander-limited.md](candidates/first-choice-2021-highlander-limited.md) |
