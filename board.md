@@ -19,6 +19,16 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-2021-highlander-xle.md](candidates/marietta-2021-highlander-xle.md) |
 | Chatham Parkway Toyota, Savannah | 2021 Highlander XLE AWD | $31,797 incl. fee | 64,079 | lead (over ceiling) | [candidates/savannah-2021-highlander-xle.md](candidates/savannah-2021-highlander-xle.md) |
 
+### Workbook Pilot shortlist (Stephen-supplied "Car Concierge Pro", 2026-10-24)
+
+Pilot contenders from Stephen's Gemini workbook, filed against the Langdale benchmark. Advertised prices and availability are workbook-reported and need reconfirmation; no PPI is documented on any of them. All three are vin-checked (vPIC; VIN-specific campaign status still open).
+
+| Candidate | Year/Trim | Price (advertised) | Miles | Status | File |
+|---|---|---|---|---|---|
+| Florence, SC (dealer identity unresolved) | 2019 Pilot Touring AWD | $22,284 (OTD not quoted; ~$24,000 is a Gemini estimate) | 85,183 | vin-checked | [candidates/florence-2019-pilot-touring.md](candidates/florence-2019-pilot-touring.md) |
+| Honda of Clear Lake, TX (via Driveway) | 2019 Pilot Touring AWD | $24,741 (delivered OTD not quoted) | 63,263 | vin-checked — **conditional** (827 mi, far outside radius) | [candidates/clear-lake-2019-pilot-touring.md](candidates/clear-lake-2019-pilot-touring.md) |
+| Sawnee Mountain Motors, Cumming | 2019 Pilot Touring AWD | $23,998 (OTD not quoted; ~$26,300+ is a Gemini estimate) | 88,049 | vin-checked — **standby** (needs materially lower OTD than Langdale) | [candidates/sawnee-2019-pilot-touring.md](candidates/sawnee-2019-pilot-touring.md) |
+
 ### Marketplace finds (via Muse, 2026-10-24)
 
 Facebook Marketplace sweep against the guide's targets. All prices are advertised figures, not OTD; seating is photo-unverified on every row (Heflin is text-confirmed only). See each file for detail.
