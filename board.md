@@ -26,7 +26,7 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | Gerald Jones Mazda, Augusta | 2023 Telluride SX FWD | $27,771 ($28,360 w/fee) | 78,633 | lead | [candidates/augusta-2023-telluride-sx.md](candidates/augusta-2023-telluride-sx.md) |
 | Jim Ellis Toyota, McDonough | 2020 Highlander XLE FWD | $27,825 | 79,421 | lead | [candidates/mcdonough-2020-highlander-xle.md](candidates/mcdonough-2020-highlander-xle.md) |
 | AutoNation Toyota, Buford | 2020 Highlander XLE FWD | $26,189 | 107,372 | lead | [candidates/buford-2020-highlander-xle.md](candidates/buford-2020-highlander-xle.md) |
-| Volkswagen of Macon, Macon | 2020 Highlander XLE FWD | $28,969 | 60,284 | lead | [candidates/macon-2020-highlander-xle.md](candidates/macon-2020-highlander-xle.md) |
+| Volkswagen of Macon, Macon | 2020 Highlander XLE FWD | $28,969 advertised (likely over ceiling OTD) | 60,284 | lead (likely over ceiling) | [candidates/macon-2020-highlander-xle.md](candidates/macon-2020-highlander-xle.md) |
 
 Eliminated: see `eliminated/` (Canton 2016 Elite; Alpharetta 2021 Highlander XLE).
 

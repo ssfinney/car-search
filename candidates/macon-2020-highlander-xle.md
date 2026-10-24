@@ -1,9 +1,9 @@
 # 2020 TOYOTA Highlander XLE 4x2 — Volkswagen of Macon, Macon GA
 
-- **Status:** lead
+- **Status:** lead (affordability unverified; advertised price implies OTD likely over ~$30k ceiling)
 - **Dealer/location:** Volkswagen of Macon, Macon GA
 - **Listing:** https://www.vwofmacon.com/used/Toyota/2020-Toyota-Highlander-623a7666ac182113dd76063d2389a9c0.htm
-- **Price:** $28,969 (dealer fees unverified)
+- **Price:** $28,969 vehicle price (dealer fees and government charges unverified; implies ~$31.5k+ OTD before negotiation)
 - **Mileage:** 60,284
 - **Color:** Magnetic Gray Metallic
 - **Captain's chairs:** Standard XLE captain's chair configuration (photo confirmation pending by Claude)
@@ -33,7 +33,7 @@
 | Immediate maintenance estimate | Pending inspection and service history |
 | Effective acquisition cost: OTD + immediate work | Pending written OTD + inspection |
 | Down payment / retained cash / monthly payment | Default: $17,000 down / $2,000 retained / target $200–250/mo (60 mo @ 6%) |
-| Reason it survives against the other candidates | Located directly at the Macon search origin (0 mi travel); 4th-gen redesign with lowest miles (60,284 mi) among all Highlander leads, 3.5L V6 gas, Magnetic Gray Metallic, and $28,969 advertised price fitting under the ~$30k OTD framework. |
+| Reason it survives against the other candidates | Located directly at the Macon search origin (0 mi travel); 4th-gen redesign with lowest miles (60,284 mi) among all Highlander leads, 3.5L V6 gas, Magnetic Gray Metallic. Advertised price ($28,969 before fees/tax) implies OTD is likely over the ~$30,000 ceiling without dealer discount; kept as an in-market discovery lead pending written unconditional OTD quote. |
 
 ## Notes
 
