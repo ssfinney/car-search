@@ -5,7 +5,8 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | Candidate | Year/Trim | Price (real/OTD where known) | Miles | Status | File |
 |---|---|---|---|---|---|
 | Pristine Cars, Marietta | 2017 Pilot Elite AWD | $18,590 total | 119,811 | verified | [candidates/pristine-2017-elite.md](candidates/pristine-2017-elite.md) |
-| Langdale Kia, Valdosta | 2020 Pilot Touring AWD | $25,072 + $849 doc | 69,487 | verified | [candidates/langdale-2020-touring.md](candidates/langdale-2020-touring.md) |
+| Langdale Kia, Valdosta | 2020 Pilot Touring AWD | $26,416.36 OTD (user-provided quote) | 69,487 | verified | [candidates/langdale-2020-touring.md](candidates/langdale-2020-touring.md) |
+| Oxmoor Chrysler | 2023 Pilot EX-L 7-passenger FWD | $29,199 before government charges (not a binding OTD quote) | 80,817 | lead | [candidates/oxmoor-2023-pilot-exl.md](candidates/oxmoor-2023-pilot-exl.md) |
 | Landa Cars, Alpharetta | 2020 Pilot Touring FWD | $23,494 all-in | 87,937 | verified | [candidates/landa-2020-touring.md](candidates/landa-2020-touring.md) |
 | Peach State Motors, Acworth | 2017 Pilot Elite | ~$21,400 real | 108,911 | verified | [candidates/acworth-2017-elite.md](candidates/acworth-2017-elite.md) |
 | Sutton Acura, Macon | 2017 Pilot Elite | $24,639 all-in | 68,679 | verified | [candidates/sutton-2017-elite.md](candidates/sutton-2017-elite.md) |
@@ -22,10 +23,10 @@ Eliminated: see `eliminated/` (Canton 2016 Elite; Alpharetta 2021 Highlander XLE
 
 ## Open decision
 
-Which constraint bends — **miles, budget, or model-year**? Unanswered as of 2026-10-24.
+The Pareto guide (`PARETO_GUIDE.md`, adopted 2026-10-24) reframes the budget as a ~$30,000 OTD ceiling with $17k down / $2k retained. The bend question from Issue #1 (miles / budget / model-year) is **superseded by the guide's ceiling framework** unless Stephen reopens it.
 
-Market finding behind the question: at under 90k miles the frontier years (2018 Pilot Elite, 2021 Highlander) price at full freight; the only verified sub-90k qualifiers sit over the $28k working ceiling, and discounts cluster north of ~120k miles. Each bend unlocks a different lead set:
+Background, kept for the record: at under 90k miles the earlier frontier years (2018 Pilot Elite, 2021 Highlander) priced at full freight, verified sub-90k qualifiers sat over the old $28k working ceiling, and discounts clustered north of ~120k miles.
 
-- **Miles** → Monroe 2019 Highlander Platinum ($21,500 / 122,699 mi).
-- **Budget** → Marietta and Savannah 2021 Highlander XLEs; 1st Choice Atlanta Limited after verification.
-- **Model-year** → Buford 2020 Telluride SX ($19,966 / 86,209 mi); Perry 2022 Ascent Touring ($22,820).
+## Search targets (per `PARETO_GUIDE.md`)
+
+Primary parallel search: **2021–22 Highlander XLE** and **2023 Pilot EX-L 7-passenger**. Alternatives: 2022 CX-9 (Touring with Premium Package / Touring Plus / Grand Touring), 2023 Telluride, 2023 Ascent. Cash preservation: 2018–19 Highlander. Langdale's 2020 Pilot remains the concrete lower-cost benchmark.
