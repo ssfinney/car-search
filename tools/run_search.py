@@ -206,7 +206,15 @@ def main() -> int:
     radius = WIDENED_RADIUS if args.widen else args.radius
 
     if args.vin:
-        # Ingest single VIN
+        # Ingest single VIN - require real listing evidence
+        if not args.dry_run and not (args.dealer and args.price and args.miles and args.color and args.url):
+            print(
+                "Error: Ingesting a candidate lead requires real listing evidence: "
+                "--dealer, --price, --miles, --color, and --url. Placeholder or fabricated data is prohibited.",
+                file=sys.stderr,
+            )
+            return 1
+
         root = find_repo_root()
         existing = load_existing_vins(root)
         listing = {

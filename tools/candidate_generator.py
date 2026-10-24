@@ -7,12 +7,12 @@ setting status to 'lead' per PROTOCOL.md.
 
 from __future__ import annotations
 
+import argparse
 import re
 import sys
 from datetime import date
 from pathlib import Path
 from typing import Any, Dict, Optional
-
 from tools.dedupe import find_repo_root, is_duplicate
 from tools.nhtsa import format_nhtsa_summary, run_nhtsa_chain
 
@@ -167,6 +167,58 @@ def generate_candidate_markdown(
     return "\n".join(lines)
 
 
+def validate_listing_evidence(listing: Dict[str, Any]) -> None:
+    """Validate that real listing evidence is provided.
+
+    Rejects candidate generation when essential listing evidence is missing
+    or contains placeholders, per PROTOCOL.md.
+    """
+    missing = []
+    vin = str(listing.get("vin", "")).strip()
+    if not vin or len(vin) != 17:
+        missing.append("valid 17-character VIN")
+
+    price = listing.get("price")
+    if price is None or price == "":
+        missing.append("price")
+    else:
+        try:
+            p = float(price)
+            if p <= 0:
+                missing.append("positive price")
+        except (ValueError, TypeError):
+            missing.append("numeric price")
+
+    miles = listing.get("miles") or listing.get("mileage")
+    if miles is None or miles == "":
+        missing.append("mileage")
+    else:
+        try:
+            m = int(miles)
+            if m < 0:
+                missing.append("valid mileage")
+        except (ValueError, TypeError):
+            missing.append("numeric mileage")
+
+    dealer = str(listing.get("dealer", "")).strip()
+    if not dealer or "example" in dealer.lower():
+        missing.append("dealer name (placeholder 'Example Dealer' rejected)")
+
+    color = str(listing.get("color") or listing.get("exterior_color") or "").strip()
+    if not color:
+        missing.append("exterior color")
+
+    url = str(listing.get("url", "")).strip()
+    if not url:
+        missing.append("listing URL")
+
+    if missing:
+        raise ValueError(
+            f"Cannot generate candidate file: Missing verified listing evidence for: {', '.join(missing)}. "
+            "Fabricated or placeholder candidate data is strictly prohibited by PROTOCOL.md."
+        )
+
+
 def write_candidate_file(
     listing: Dict[str, Any],
     nhtsa_data: Optional[Dict[str, Any]] = None,
@@ -174,6 +226,8 @@ def write_candidate_file(
     overwrite: bool = False,
 ) -> Path:
     """Generate and write a candidate markdown file to candidates/."""
+    validate_listing_evidence(listing)
+
     root = find_repo_root(repo_dir)
     candidates_dir = root / "candidates"
     candidates_dir.mkdir(parents=True, exist_ok=True)
@@ -199,33 +253,52 @@ def write_candidate_file(
 
 
 def main() -> int:
-    if len(sys.argv) < 2:
-        print("Usage: python -m tools.candidate_generator <VIN> [options]", file=sys.stderr)
-        return 1
+    parser = argparse.ArgumentParser(
+        description="Generate a candidate lead file from verified listing evidence."
+    )
+    parser.add_argument("vin", help="17-character vehicle VIN")
+    parser.add_argument("--dealer", required=True, help="Dealership name (required)")
+    parser.add_argument("--city", default="", help="Dealer city")
+    parser.add_argument("--state", default="GA", help="Dealer state (default: GA)")
+    parser.add_argument("--price", type=float, required=True, help="Listing advertised price (required)")
+    parser.add_argument("--miles", type=int, required=True, help="Odometer mileage (required)")
+    parser.add_argument("--color", required=True, help="Exterior color (required)")
+    parser.add_argument("--url", required=True, help="Listing URL (required)")
+    parser.add_argument("--captains-chairs", help="Notes on captain's chair equipment")
+    parser.add_argument("--power-liftgate", help="Notes on power liftgate equipment")
 
-    vin = sys.argv[1].strip().upper()
-    print(f"Decoding VIN {vin} and generating candidate lead...")
+    args = parser.parse_args()
+
+    vin = args.vin.strip().upper()
+    print(f"Decoding VIN {vin} and running NHTSA safety chain...")
     nhtsa_res = run_nhtsa_chain(vin)
     vpic = nhtsa_res.get("vpic", {})
 
     listing = {
         "vin": vin,
-        "year": vpic.get("year", "2023"),
-        "make": vpic.get("make", "Unknown"),
-        "model": vpic.get("model", "Unknown"),
+        "year": vpic.get("year", ""),
+        "make": vpic.get("make", ""),
+        "model": vpic.get("model", ""),
         "trim": vpic.get("trim", ""),
-        "drivetrain": vpic.get("drive_type", "FWD"),
-        "dealer": "Example Dealer",
-        "city": "Atlanta",
-        "state": "GA",
-        "price": 28000,
-        "miles": 75000,
-        "color": "Silver",
+        "drivetrain": vpic.get("drive_type", ""),
+        "dealer": args.dealer,
+        "city": args.city,
+        "state": args.state,
+        "price": args.price,
+        "miles": args.miles,
+        "color": args.color,
+        "url": args.url,
+        "captains_chairs": args.captains_chairs,
+        "power_liftgate": args.power_liftgate,
     }
 
-    out_file = write_candidate_file(listing, nhtsa_data=nhtsa_res)
-    print(f"Candidate written to: {out_file}")
-    return 0
+    try:
+        out_file = write_candidate_file(listing, nhtsa_data=nhtsa_res)
+        print(f"Candidate lead filed successfully: {out_file}")
+        return 0
+    except ValueError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        return 1
 
 
 if __name__ == "__main__":
