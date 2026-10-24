@@ -6,7 +6,7 @@
 - **Listing:** https://www.facebook.com/marketplace/item/1102362732609926
 - **Price:** $18,000 advertised. Private sale — no dealer fees, but GA TAVT still applies; total unverified.
 - **Mileage:** 84,685
-- **Color:** Not stated in the listing — confirm non-white from photos.
+- **Color:** Grey (per listing details) — interior Black.
 - **Captain's chairs:** UNVERIFIED — seating not mentioned in the listing.
 - **Power liftgate:** UNVERIFIED — not mentioned in the listing.
 - **VIN:** Not yet obtained — obtain from the seller listing before the Muse VIN check.
@@ -29,3 +29,4 @@
 ## Log
 
 - 2026-10-24 — Filed by Muse from Facebook Marketplace sweep.
+- 2026-10-24 — Stephen flagged this listing directly as a budget pick (shared the Facebook link). Muse pulled full listing details: exterior color is Grey (previously not stated), interior Black, listing title status CLEAN, standard seating capacity listed as 7 — consistent with the captain's-chair configuration on a 2018 XLE (8-passenger bench was standard), but NOT photo confirmation; Claude's image check at evaluation still decides. Goodyear all-season tires with tread remaining per seller. Listed 2026-10-20. Status remains lead; obtaining the VIN is still the next gate.
