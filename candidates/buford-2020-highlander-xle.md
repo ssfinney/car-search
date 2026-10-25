@@ -1,6 +1,6 @@
 # 2020 TOYOTA Highlander XLE 4x2 — AutoNation Toyota Mall of Georgia, Buford GA
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** AutoNation Toyota Mall of Georgia, Buford GA
 - **Listing:** https://www.autonation.com/cars-for-sale/2020-toyota-highlander-xle-5tdgzrah4ls502413
 - **Price:** $26,189 (dealer fees unverified)
@@ -48,6 +48,14 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24
+
+- VIN check complete; full report at `history/buford-2020-highlander-xle/vin-check-2026-10-24.md`. vPIC decode clean (ErrorText 0, check digit correct) and matches the filed year/trim/drivetrain/engine exactly. The filed recall list (4 campaigns) and complaints pattern (321 total) match the NHTSA APIs exactly.
+- Listing live-verified 2026-10-24: AutoNation detail page shows the car In-Stock, described by the dealer as "Certified" (program/terms undocumented). Price $26,189 (AutoNation 1Price) matches filed; VIN and color on page match. Mileage on page is 107,378 (+6 vs filed 107,372).
+- 2020-specific safety verified for evaluation (detail in history report): IIHS small overlap G/G, updated side G, front crash prevention Superior, NHTSA 5-star overall — but **XLE headlights are rated P (Poor) for 2020 models only** (2021–22 XLE rate A), and the updated frontal test is not rated for 2020. Reliability: no 2020 row in the guide; secondary Consumer Reports roundups report 4/5 — indicative only, not read from CR directly.
+- Still open: adverse history (no CARFAX pulled — owners/accidents/title unverified), VIN-specific recall completion status, captain's-chair photo confirmation (Claude, at evaluation), written OTD, independent PPI. Mileage is in the 100–110k widening band: documented maintenance plus a meaningful discount have not yet been shown.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-24 — Muse: VIN check complete; listing live-verified at the filed price. Advanced `lead` → `vin-checked` → `ready-for-evaluation`.
