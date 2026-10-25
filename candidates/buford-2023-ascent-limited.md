@@ -1,6 +1,6 @@
 # 2023 Subaru Ascent Limited AWD — CarMax Buford, Buford GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** CarMax Buford, Buford GA
 - **Listing:** https://www.carmax.com/car/28889551
 - **Price:** $26,998 (dealer fees unverified)
@@ -54,7 +54,22 @@
 - **Listing/price:** CarMax page LIVE 2026-10-24 at **$26,998 — matches the filed price exactly.** The page shows mileage only as "53k miles," so the filed 52,536 mi is consistent but not exactly verified; the page names the color only as "Black."
 - Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: ON FRONTIER — best safety-per-dollar on the board.**
+
+- **Captain's chairs: PHOTO-CONFIRMED by Claude** (CarMax photo 20: individual second-row captain's chair with armrest and open aisle). CarMax's spec text lists a "60-40 bench" second row — that text is wrong for this car (the bench is the third row). Black confirmed. Power liftgate in CarMax's equipment list.
+- **Price:** $26,998 CarMax no-haggle, before tax/title (~$193/mo). CarMax lists the car as **single owner**. Mileage shown as "53k".
+- **Safety (IIHS 2023 Ascent):** small overlap G/G, updated side G, **updated frontal A** (better than the Pilot's and Highlander's M), headlights G all trims.
+- **Reliability:** CR 2023 Ascent "less reliable" (CVT and electronics are the usual complaints). 2.4L turbo flat-4.
+- **Recalls to confirm:** 23V392000 front lower-control-arm ball-joint nut, 23V647000 driveshaft center-support bolts, 23V258000 20-inch tire bead, 26V436000.
+- **Versus Wesley Chapel Pilot:** ~$1,260 cheaper, ~33k fewer miles, AWD, ~110 mi away, better frontal rating — for weaker reliability evidence (less vs average).
+- **Verdict: evaluated — keep as the safety-at-a-discount pick** (guide §2). Gates: CarMax's AutoCheck/history, recall completion, PPI with CVT fluid/condition check.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (CarMax page live 2026-10-24 at $26,998 as filed). Status lead → ready-for-evaluation. Report: history/buford-2023-ascent-limited/vin-check-2026-10-24.md.
+- 2026-10-25 — Claude evaluation complete: ON FRONTIER — best safety-per-dollar on the board. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
