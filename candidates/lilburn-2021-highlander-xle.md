@@ -1,6 +1,6 @@
 # 2021 Toyota Highlander XLE AWD — Automax Atlanta, Lilburn GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** Automax Atlanta, Lilburn GA
 - **Listing:** https://www.automaxatlanta.com/pre-owned-cars/detail/2021-Toyota-Highlander/1593882
 - **Price:** $28,375 (dealer fees unverified)
@@ -54,7 +54,23 @@
 - **Price correction:** dealer page LIVE 2026-10-24 at **$29,323** — the filed $28,375 is a stale aggregator figure; use $29,323. The dealer page did not display mileage or VIN, so the filed 71,289 mi stands as aggregator-reported, not dealer-verified.
 - Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: written OTD, captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: ON FRONTIER — top-tier contender; may displace Wesley Chapel pending history.**
+
+- **Captain's chairs: PHOTO-CONFIRMED by Claude** (dealer gallery photo 8: individual second-row seat with armrest and a separate opposite seat, open aisle). Midnight Black confirmed. Power liftgate standard on XLE (not separately verified).
+- **Dealer page read 2026-10-25:** $28,375 + $699 service fee + $249 ETR = **$29,323** before tax; **71,289 mi and VIN 5TDGZRBH0MS552547 shown on the page** (resolves Muse's "aggregator-only" mileage note). AutoCheck score 92 (range 88–93); report itself not read. ~$239/mo before tax.
+- **Safety (IIHS, applies to this car):** small overlap G/G, updated side G (2020–26), headlights **A** (2021+ XLE), updated frontal not rated for 2021 (2022's M applies from 2022 — same structure, no 2021 result). Superior pedestrian AEB; TSS 2.5+.
+- **Reliability:** CR 2021 Highlander "more reliable" — the strongest evidence of any car near this price. NHTSA complaints skew powertrain (228 of 533; 8-speed shift quality) — pattern signal only.
+- **Recall to confirm:** **26V128000 second-row seat-back recliner may not lock (2021–25)** — directly affects child-seat positions; also 23V720000, 23V865000, 24V452000.
+- **Versus Wesley Chapel 2023 Pilot:** ~$1,065 more before tax, but 14k fewer miles, AWD, ~90 mi from Macon instead of ~400, better reliability evidence, equal side protection; gives up G headlights (A) and has no updated-frontal result. This is the guide's preferred matchup (§7: favor a 2021–22 Highlander when price and condition are competitive).
+- **Flag:** Automax Atlanta's site has a "Manufacturer Buyback" section — confirm this VIN is **not** a lemon/manufacturer-buyback title before anything else.
+- **Verdict: evaluated — recommend as a co-lead with Wesley Chapel.** Gates: title/buyback check and full history (CARFAX or AutoCheck), written OTD (likely ~$31k with TAVT — over ceiling unless the $699 fee or price moves), 26V128000 completion, PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $29,323). Status lead → ready-for-evaluation. Report: history/lilburn-2021-highlander-xle/vin-check-2026-10-24.md.
+- 2026-10-25 — Claude evaluation complete: ON FRONTIER — top-tier contender; may displace Wesley Chapel pending history. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
