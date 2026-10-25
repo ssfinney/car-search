@@ -1,6 +1,6 @@
 # 2020 TOYOTA Highlander XLE 4x2 — AutoNation Toyota Mall of Georgia, Buford GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** AutoNation Toyota Mall of Georgia, Buford GA
 - **Listing:** https://www.autonation.com/cars-for-sale/2020-toyota-highlander-xle-5tdgzrah4ls502413
 - **Price:** $26,189 (dealer fees unverified)
@@ -55,7 +55,20 @@
 - 2020-specific safety verified for evaluation (detail in history report): IIHS small overlap G/G, updated side G, front crash prevention Superior, NHTSA 5-star overall — but **XLE headlights are rated P (Poor) for 2020 models only** (2021–22 XLE rate A), and the updated frontal test is not rated for 2020. Reliability: no 2020 row in the guide; secondary Consumer Reports roundups report 4/5 — indicative only, not read from CR directly.
 - Still open: adverse history (no CARFAX pulled — owners/accidents/title unverified), VIN-specific recall completion status, captain's-chair photo confirmation (Claude, at evaluation), written OTD, independent PPI. Mileage is in the 100–110k widening band: documented maintenance plus a meaningful discount have not yet been shown.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: LIKELY DOMINATED by ALM 2022 Highlander — standby.**
+
+- **Captain's chairs: probable, not conclusive** — the third-row view (gallery photo 28) shows two separate second-row seats with a gap, but no clean side shot. Confirm in person. Celestial Silver confirmed.
+- **Price:** $24,991 + $999 + $199 = **$26,189** AutoNation 1Price before tax (~$178/mo). **107,378 mi** — inside the 100–110k widening band, which requires documented maintenance plus a meaningful discount; neither is shown yet. Sold as **Toyota "Silver Certified"** — get the exact coverage terms in writing.
+- **Safety:** current structure (small overlap G/G, updated side G) but **XLE headlights rated P for 2020 only**; no updated-frontal result. **Reliability:** Claude read CR directly: 2020 Highlander "about average" (not the 4/5 secondary figure in the Muse note). 2020 has no 26V128 seat recall (2021+).
+- **Versus ALM 2022 XLE:** only ~$775 cheaper for +14k miles, an older year, Poor headlights, and weaker reliability evidence → likely dominated if ALM's seating checks out.
+- **Verdict: evaluated — standby / likely dominated.** Revisit only with service records and a lower price.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-24 — Muse: VIN check complete; listing live-verified at the filed price. Advanced `lead` → `vin-checked` → `ready-for-evaluation`.
+- 2026-10-25 — Claude evaluation complete: LIKELY DOMINATED by ALM 2022 Highlander — standby. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
