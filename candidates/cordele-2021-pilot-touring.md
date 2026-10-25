@@ -1,6 +1,6 @@
 # 2021 Honda Pilot Touring 7-Passenger FWD — Ford Cordele, Cordele GA
 
-- **Status:** vin-checked
+- **Status:** ready-for-evaluation
 - **Dealer/location:** Ford Cordele (Powerhouse Automotive Group), Cordele GA · 229-471-9789 · ~65 mi from Macon (closest candidate on the board)
 - **Listing:** https://www.fordcordele.com/used/-/5FNYF5H61MB041896.htm
 - **Price:** $29,998 "market value" − $4,498 + $995 dealer fee = **$26,495 before GA TAVT/title** (dealer page, 2026-10-25). Not an OTD quote.
@@ -23,7 +23,14 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 - **Recalls:** 26V365000 rear-subframe corrosion applies only if ever sold in a listed salt-belt state — check CARFAX owner location.
 - **Verdict:** Keep. Strongest value Pilot on the board; does not close the safety gap to the 2023 Pilot. Gates: written OTD, CARFAX and service records, Honda campaign printout, independent PPI.
 
+## Muse listing re-check — 2026-10-25 (live browser)
+
+- **Listing LIVE:** the exact URL loads as a specific "Certified Pre-Owned 2021 Honda Pilot Touring" page (39 photos, no sold banner). VIN on page matches; price $29,998 − $4,498 + $995 fee = **$26,495** matches the filed price (arithmetic verified); mileage **65,284** matches; power liftgate confirmed in the page's equipment and notes.
+- Exterior color has no text field on the page; photos show black/dark. Color stands on Claude's photo confirmation at filing, unchanged.
+- Addendum appended to `history/cordele-2021-pilot-touring/vin-check-2026-10-25.md`. Status advanced `vin-checked` → `ready-for-evaluation`. Remaining gates: written OTD, CARFAX read (incl. owner-location check for 26V365000), Honda campaign printout, independent PPI.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2021 Pilot TOURING-7, FWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $26,495 / 65,284 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/cordele-2021-pilot-touring/vin-check-2026-10-25.md. Status lead → vin-checked.
+- 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage confirmed as filed. Advanced to `ready-for-evaluation`.
