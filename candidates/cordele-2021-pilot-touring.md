@@ -1,6 +1,6 @@
 # 2021 Honda Pilot Touring 7-Passenger FWD — Ford Cordele, Cordele GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** Ford Cordele (Powerhouse Automotive Group), Cordele GA · 229-471-9789 · ~65 mi from Macon (closest candidate on the board)
 - **Listing:** https://www.fordcordele.com/used/-/5FNYF5H61MB041896.htm
 - **Price:** $29,998 "market value" − $4,498 + $995 dealer fee = **$26,495 before GA TAVT/title** (dealer page, 2026-10-25). Not an OTD quote.
@@ -29,8 +29,20 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 - Exterior color has no text field on the page; photos show black/dark. Color stands on Claude's photo confirmation at filing, unchanged.
 - Addendum appended to `history/cordele-2021-pilot-touring/vin-check-2026-10-25.md`. Status advanced `vin-checked` → `ready-for-evaluation`. Remaining gates: written OTD, CARFAX read (incl. owner-location check for 26V365000), Honda campaign printout, independent PPI.
 
+## Claude evaluation — 2026-10-25 (final)
+
+Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `ready-for-evaluation`; this section is Claude's evaluation-stage verdict and advances the status to `evaluated`. It builds on the preliminary section above and Muse's report in `history/`. Stephen decides next.
+
+**Frontier verdict: ON FRONTIER — #1 value pick; co-benchmark with Langdale.**
+
+- **Muse stage:** VIN confirmed (TOURING-7, FWD, 7 seats); listing live at $26,495 / 65,284 mi; 10 model-year campaigns — 26V365000 subframe corrosion matters only if the car ever lived in a listed salt-belt state; 19V784000 does not apply. 447 model-year complaints (heavier electrical/engine than the 2023 — pattern signal only).
+- **Captain's chairs, color:** photo-confirmed by Claude at filing (black; two individual second-row seats).
+- **Frontier:** Not dominated. Versus Langdale: better CR reliability (more vs less reliable), fewer miles, one owner, belt not due until ~2028, closer — Langdale keeps AWD, a written OTD, and documented service. Versus Wesley Chapel: ~$1.5–2k cheaper, 20k fewer miles, 335 mi closer, better reliability evidence — but the older crash structure (updated side M, passenger small overlap A).
+- **Verdict: evaluated — recommend as the value Pilot to pursue in parallel with Wesley Chapel.** It is the cheapest way to close the reliability gap, not the safety gap. Gates: CARFAX (incl. owner-state check for 26V365000), written OTD (push on the $995 fee), Honda campaign printout, independent PPI. Treat "Certified" as the dealer's POWER Promise only.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2021 Pilot TOURING-7, FWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $26,495 / 65,284 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/cordele-2021-pilot-touring/vin-check-2026-10-25.md. Status lead → vin-checked.
 - 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage confirmed as filed. Advanced to `ready-for-evaluation`.
+- 2026-10-25 — Claude evaluation complete: ON FRONTIER — #1 value pick; co-benchmark with Langdale. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
