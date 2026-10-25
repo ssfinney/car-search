@@ -92,17 +92,31 @@ def generate_candidate_markdown(
     if nhtsa_data:
         nhtsa_summary = format_nhtsa_summary(nhtsa_data)
         recalls = nhtsa_data.get("recalls", {})
-        count = recalls.get("count", 0)
-        c_ids = [c.get("campaign_number") for c in recalls.get("campaigns", []) if c.get("campaign_number")]
-        if c_ids:
-            recalls_summary = f"{count} model-year campaigns ({', '.join(c_ids)}); VIN-specific completion pending"
+        if recalls.get("status") == "error" or recalls.get("count") is None:
+            recalls_summary = f"NHTSA recalls lookup failed ({recalls.get('error', 'API error')}); re-check required"
         else:
-            recalls_summary = "0 open campaigns for model year; VIN-specific completion check pending"
+            count = recalls.get("count", 0)
+            c_ids = [c.get("campaign_number") for c in recalls.get("campaigns", []) if c.get("campaign_number")]
+            if c_ids:
+                recalls_summary = f"{count} model-year campaigns ({', '.join(c_ids)}); VIN-specific completion pending"
+            else:
+                recalls_summary = "0 open campaigns for model year; VIN-specific completion check pending"
 
     title_header = f"{year} {make} {model} {trim}".strip()
     if drivetrain:
         title_header += f" {drivetrain}"
     title_header += f" — {location_str}"
+
+    reported_fee = listing.get("dealer_fees") or listing.get("fees")
+    if reported_fee:
+        fee_str = format_currency(reported_fee)
+        price_fee_label = f"+{fee_str} fee reported"
+        table_fee_label = f"{fee_str} reported by listing source; written quote required for full breakdown"
+        notes_fee_label = f"{fee_str} reported by source, but unconditional written quote is required."
+    else:
+        price_fee_label = "dealer fees unverified"
+        table_fee_label = "Unverified (not returned by listing source; written quote required)"
+        notes_fee_label = "Unverified; not returned by listing source."
 
     lines = [
         f"# {title_header}",
@@ -110,7 +124,7 @@ def generate_candidate_markdown(
         "- **Status:** lead",
         f"- **Dealer/location:** {location_str}",
         f"- **Listing:** {listing_url if listing_url else 'Direct dealer find'}",
-        f"- **Price:** {price_str} (dealer fees unverified)",
+        f"- **Price:** {price_str} ({price_fee_label})",
         f"- **Mileage:** {miles_str}",
         f"- **Color:** {color}",
         f"- **Captain's chairs:** {captains}",
@@ -135,7 +149,7 @@ def generate_candidate_markdown(
         "| Service records and gaps | History report pending (Muse handoff) |",
         f"| Open recalls and completion documentation | {recalls_summary} |",
         f"| Vehicle price | {price_str} |",
-        "| Dealer fees and mandatory packages | Unverified (no API returns dealer fees; written quote required) |",
+        f"| Dealer fees and mandatory packages | {table_fee_label} |",
         "| Taxes / title / registration | Unverified (dealer actual Georgia TAVT calculation required) |",
         f"| Transport / travel | {transport} |",
         "| Written OTD total, with financing conditions | Pending written quote from dealer |",
@@ -148,7 +162,7 @@ def generate_candidate_markdown(
         "## Notes",
         "",
         f"- Discovered via CLI search tooling on {today}.",
-        "- No API returns dealer fees — fees flagged as unverified rather than estimated.",
+        f"- Dealer fees: {notes_fee_label}",
         "- Second-row captain's chairs and exterior color require photo verification before travel/evaluation.",
         "",
         "## Open gates / next steps",

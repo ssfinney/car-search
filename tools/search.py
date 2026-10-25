@@ -186,6 +186,7 @@ def normalize_marketcheck_listing(item: Dict[str, Any]) -> Dict[str, Any]:
     state = (dealer_info.get("state") or "").strip()
     url = (item.get("vdp_url") or "").strip()
 
+    fees = item.get("fees") or dealer_info.get("fees") or item.get("dealer_fee")
     return {
         "vin": vin,
         "year": year,
@@ -200,6 +201,7 @@ def normalize_marketcheck_listing(item: Dict[str, Any]) -> Dict[str, Any]:
         "miles": miles,
         "color": color,
         "url": url,
+        "dealer_fees": fees,
         "source": "marketcheck",
         "raw": item,
     }
@@ -212,8 +214,9 @@ def query_autodev(
     radius: int = DEFAULT_RADIUS,
     max_price: int = 30000,
     max_miles: int = 95000,
+    max_pages: int = 5,
 ) -> List[Dict[str, Any]]:
-    """Query Auto.dev API for matching vehicles."""
+    """Query Auto.dev API for matching vehicles, following pagination links."""
     base_url = "https://api.auto.dev/listings"
     year_param = ",".join(str(y) for y in spec.years)
 
@@ -227,22 +230,29 @@ def query_autodev(
         "distance": str(radius),
         "limit": "50",
     }
-    url = f"{base_url}?{urllib.parse.urlencode(params)}"
+    next_url: Optional[str] = f"{base_url}?{urllib.parse.urlencode(params)}"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
         "User-Agent": "SUV-Search-Tooling/1.0",
     }
 
-    req = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            raw_data = data.get("data", [])
-            return [normalize_autodev_listing(item) for item in raw_data]
-    except Exception as exc:
-        print(f"[Auto.dev Error] {exc}", file=sys.stderr)
-        return []
+    all_listings: List[Dict[str, Any]] = []
+    page = 0
+    while next_url and page < max_pages:
+        page += 1
+        req = urllib.request.Request(next_url, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                raw_data = data.get("data", [])
+                all_listings.extend([normalize_autodev_listing(item) for item in raw_data])
+                links = data.get("links", {})
+                next_url = links.get("next")
+        except Exception as exc:
+            print(f"[Auto.dev Error] {exc}", file=sys.stderr)
+            break
+    return all_listings
 
 
 def query_marketcheck(
@@ -255,7 +265,7 @@ def query_marketcheck(
 ) -> List[Dict[str, Any]]:
     """Query MarketCheck API for matching vehicles."""
     base_url = "https://api.marketcheck.com/v2/search/car/active"
-    year_param = f"{min(spec.years)}-{max(spec.years)}" if len(spec.years) > 1 else str(spec.years[0])
+    year_param = ",".join(str(y) for y in spec.years)
 
     params = {
         "api_key": api_key,
@@ -263,7 +273,7 @@ def query_marketcheck(
         "model": spec.model,
         "year": year_param,
         "price_range": f"10000-{max_price}",
-        "mileage_range": f"20000-{max_miles}",
+        "miles_range": f"20000-{max_miles}",
         "zip": zip_code,
         "radius": str(radius),
         "car_type": "used",
@@ -283,8 +293,13 @@ def query_marketcheck(
         return []
 
 
-def passes_screening(listing: Dict[str, Any], spec: Optional[TargetSpec] = None) -> Tuple[bool, str]:
-    """Screen candidate listing against hard requirements."""
+def passes_screening(
+    listing: Dict[str, Any],
+    spec: Optional[TargetSpec] = None,
+    max_price: Optional[int] = None,
+    max_miles: Optional[int] = None,
+) -> Tuple[bool, str]:
+    """Screen candidate listing against hard requirements and bounds."""
     # 1. White exterior hard reject
     color = listing.get("color")
     if is_white_exterior(color):
@@ -295,8 +310,9 @@ def passes_screening(listing: Dict[str, Any], spec: Optional[TargetSpec] = None)
     if miles:
         try:
             m = int(miles)
-            if m > 115000:
-                return False, f"Rejected: High mileage ({m:,} mi > 115k)"
+            mile_limit = max_miles if max_miles is not None else 95000
+            if m > mile_limit:
+                return False, f"Rejected: High mileage ({m:,} mi > {mile_limit:,} mi)"
         except (ValueError, TypeError):
             pass
 
@@ -305,8 +321,9 @@ def passes_screening(listing: Dict[str, Any], spec: Optional[TargetSpec] = None)
     if price:
         try:
             p = float(price)
-            if p > 32000:
-                return False, f"Rejected: Advertised price ${p:,.0f} far exceeds $30k ceiling"
+            price_limit = max_price if max_price is not None else 30000
+            if p > price_limit:
+                return False, f"Rejected: Advertised price ${p:,.0f} exceeds ceiling (${price_limit:,.0f})"
         except (ValueError, TypeError):
             pass
 

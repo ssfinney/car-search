@@ -90,9 +90,10 @@ def get_recalls(make: str, model: str, year: str | int) -> Dict[str, Any]:
         alt_model = urllib.parse.quote(re.sub(r"[\s-]+", "", str(model).strip().lower()))
         alt_url = RECALLS_URL.format(make=safe_make, model=alt_model, year=safe_year)
         resp = _http_get_json(alt_url)
-    if not resp or "results" not in resp or resp["results"] is None:
-        return {"count": 0, "campaigns": []}
-
+    if resp is None:
+        return {"status": "error", "error": "NHTSA Recalls API request failed or timed out", "count": None, "campaigns": []}
+    if "results" not in resp or resp["results"] is None:
+        return {"status": "ok", "count": 0, "campaigns": []}
     results = resp.get("results") or []
     campaigns: List[Dict[str, Any]] = []
     for r in results:
@@ -105,6 +106,7 @@ def get_recalls(make: str, model: str, year: str | int) -> Dict[str, Any]:
         })
 
     return {
+        "status": "ok",
         "count": len(campaigns),
         "campaigns": campaigns,
     }
@@ -122,9 +124,10 @@ def get_complaints_pattern(make: str, model: str, year: str | int) -> Dict[str, 
         alt_model = urllib.parse.quote(re.sub(r"[\s-]+", "", str(model).strip().lower()))
         alt_url = COMPLAINTS_URL.format(make=safe_make, model=alt_model, year=safe_year)
         resp = _http_get_json(alt_url)
-    if not resp or "results" not in resp or resp["results"] is None:
-        return {"count": 0, "patterns": {}, "top_issues": []}
-
+    if resp is None:
+        return {"status": "error", "error": "NHTSA Complaints API request failed or timed out", "count": None, "patterns": {}, "top_issues": []}
+    if "results" not in resp or resp["results"] is None:
+        return {"status": "ok", "count": 0, "patterns": {}, "top_issues": []}
     results = resp.get("results") or []
     count = resp.get("count", len(results))
 
@@ -142,6 +145,7 @@ def get_complaints_pattern(make: str, model: str, year: str | int) -> Dict[str, 
     ]
 
     return {
+        "status": "ok",
         "count": count,
         "patterns": dict(component_counter.most_common(10)),
         "top_issues": top_issues,
@@ -193,10 +197,20 @@ def format_nhtsa_summary(data: Dict[str, Any]) -> str:
 
     top_complaints = ", ".join(complaints.get("top_issues", [])) or "None reported"
 
+    if recalls.get("status") == "error" or recalls.get("count") is None:
+        recall_line = f"- **NHTSA Recalls:** Lookup failed ({recalls.get('error', 'API error')})"
+    else:
+        recall_line = f"- **NHTSA Recalls ({recalls.get('count', 0)} campaigns):** {campaign_str}"
+
+    if complaints.get("status") == "error" or complaints.get("count") is None:
+        complaint_line = f"- **NHTSA Complaints pattern:** Lookup failed ({complaints.get('error', 'API error')})"
+    else:
+        complaint_line = f"- **NHTSA Complaints pattern ({complaints.get('count', 0)} total):** {top_complaints}"
+
     lines = [
         f"- **NHTSA vPIC decode:** {year} {make} {model} {trim} | Drive: {drive} | Seats: {seats} | Engine: {engine_str}",
-        f"- **NHTSA Recalls ({recalls.get('count', 0)} campaigns):** {campaign_str}",
-        f"- **NHTSA Complaints pattern ({complaints.get('count', 0)} total):** {top_complaints}",
+        recall_line,
+        complaint_line,
     ]
     return "\n".join(lines)
 

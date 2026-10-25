@@ -18,7 +18,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from tools.candidate_generator import write_candidate_file
+from tools.candidate_generator import validate_listing_evidence, write_candidate_file
 from tools.dedupe import find_repo_root, is_duplicate, load_existing_vins
 from tools.nhtsa import run_nhtsa_chain
 from tools.search import (
@@ -39,6 +39,8 @@ def process_listing(
     spec: Optional[TargetSpec],
     existing_vins: Dict[str, dict],
     repo_root: Path,
+    max_price: Optional[int] = None,
+    max_miles: Optional[int] = None,
     dry_run: bool = False,
 ) -> Optional[Path]:
     """Process a single listing: screening -> dedupe -> NHTSA chain -> file write."""
@@ -46,7 +48,7 @@ def process_listing(
     title = f"{listing.get('year')} {listing.get('make')} {listing.get('model')} {listing.get('trim')}"
 
     # 1. Screening
-    passed, reason = passes_screening(listing, spec)
+    passed, reason = passes_screening(listing, spec=spec, max_price=max_price, max_miles=max_miles)
     if not passed:
         print(f"  [SCREEN REJECT] {title} (VIN: {vin or 'none'}): {reason}")
         return None
@@ -60,12 +62,32 @@ def process_listing(
     elif not vin:
         print(f"  [WARN] Listing missing VIN: {title} ({listing.get('dealer', 'unknown')})")
 
-    # 3. NHTSA Chain
+    # 3. NHTSA Chain & Identity Verification
     nhtsa_data = None
     if vin and len(vin) == 17:
         print(f"  [NHTSA] Running chain for VIN: {vin}...")
         nhtsa_data = run_nhtsa_chain(vin)
         vpic = nhtsa_data.get("vpic", {})
+
+        # Reject VIN decodes that contradict listing identity
+        vpic_make = (vpic.get("make") or "").lower()
+        vpic_model = (vpic.get("model") or "").lower()
+        vpic_year = str(vpic.get("year") or "").strip()
+
+        list_make = str(listing.get("make") or "").lower()
+        list_model = str(listing.get("model") or "").lower()
+        list_year = str(listing.get("year") or "").strip()
+
+        if list_make and vpic_make and list_make not in vpic_make and vpic_make not in list_make:
+            print(f"  [SCREEN REJECT] Identity mismatch: Listing make '{listing.get('make')}' contradicts VIN decode '{vpic.get('make')}'")
+            return None
+        if list_model and vpic_model and list_model not in vpic_model and vpic_model not in list_model:
+            print(f"  [SCREEN REJECT] Identity mismatch: Listing model '{listing.get('model')}' contradicts VIN decode '{vpic.get('model')}'")
+            return None
+        if list_year and vpic_year and list_year != vpic_year:
+            print(f"  [SCREEN REJECT] Identity mismatch: Listing year '{listing.get('year')}' contradicts VIN decode '{vpic_year}'")
+            return None
+
         # Enrich listing with decoded details if missing
         if not listing.get("make") and vpic.get("make"):
             listing["make"] = vpic["make"]
@@ -78,7 +100,14 @@ def process_listing(
         if not listing.get("drivetrain") and vpic.get("drive_type"):
             listing["drivetrain"] = vpic["drive_type"]
 
-    # 4. Generate candidate file
+    # 4. Listing Evidence Validation (checked during dry runs too)
+    try:
+        validate_listing_evidence(listing)
+    except ValueError as val_err:
+        print(f"  [EVIDENCE ERROR] {title} (VIN: {vin}): {val_err}", file=sys.stderr)
+        return None
+
+    # 5. Generate candidate file
     if dry_run:
         print(f"  [DRY RUN] Would file candidate: {title} (VIN: {vin})")
         return None
@@ -132,7 +161,15 @@ def run_search(
         listings = load_listings_from_json(feed_path)
         print(f"Found {len(listings)} raw listing records in feed.")
         for item in listings:
-            res = process_listing(item, spec=None, existing_vins=existing_vins, repo_root=root, dry_run=dry_run)
+            res = process_listing(
+                item,
+                spec=None,
+                existing_vins=existing_vins,
+                repo_root=root,
+                max_price=max_price,
+                max_miles=max_miles,
+                dry_run=dry_run,
+            )
             if res:
                 filed_files.append(res)
         return filed_files
@@ -176,7 +213,15 @@ def run_search(
 
         # Process each result
         for item in listings:
-            res = process_listing(item, spec=spec, existing_vins=existing_vins, repo_root=root, dry_run=dry_run)
+            res = process_listing(
+                item,
+                spec=spec,
+                existing_vins=existing_vins,
+                repo_root=root,
+                max_price=max_price,
+                max_miles=max_miles,
+                dry_run=dry_run,
+            )
             if res:
                 filed_files.append(res)
 
@@ -227,7 +272,15 @@ def main() -> int:
             "color": args.color,
             "url": args.url,
         }
-        res = process_listing(listing, spec=None, existing_vins=existing, repo_root=root, dry_run=args.dry_run)
+        res = process_listing(
+            listing,
+            spec=None,
+            existing_vins=existing,
+            repo_root=root,
+            max_price=args.max_price,
+            max_miles=args.max_miles,
+            dry_run=args.dry_run,
+        )
         return 0 if res or args.dry_run else 1
 
     run_search(
