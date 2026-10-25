@@ -1,6 +1,6 @@
 # 2023 Honda Pilot EX-L 7-Passenger AWD — AutoNation Honda Thornton Road, Lithia Springs GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** AutoNation Honda Thornton Road, 1979 Thornton Rd, Lithia Springs GA · 470-970-5654 · ~95 mi from Macon
 - **Listing:** https://www.autonationhondathorntonroad.com/used/Honda/2023-Honda-Pilot-68c91bd7ac180e99be2ff67d88bcb75c.htm
 - **Price:** $30,797 + $999 dealer service fee + $199 electronic filing = **$31,995 "AutoNation 1Price"** (no-haggle) before GA TAVT/title.
@@ -28,8 +28,20 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 - **Listing LIVE:** the exact URL loads as a specific "Used 2023 Honda Pilot EX-L 7 Passenger SUV" page (30 photos, no sold banner). VIN on page matches; $30,797 + $999 service fee + $199 filing = **$31,995 "AutoNation 1Price"** matches the filed price (arithmetic verified); mileage **64,530** matches; Lunar Silver matches; power liftgate confirmed on the page. No mismatches.
 - Addendum appended to `history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md`. Status advanced `vin-checked` → `ready-for-evaluation`. Over-ceiling flag unchanged. Remaining gates: written OTD, history report, VIN-specific recall completion (23V735000 first), independent PPI.
 
+## Claude evaluation — 2026-10-25 (final)
+
+Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `ready-for-evaluation`; this section is Claude's evaluation-stage verdict and advances the status to `evaluated`. It builds on the preliminary section above and Muse's report in `history/`. Stephen decides next.
+
+**Frontier verdict: NOT DOMINATED but fails ceiling — park.**
+
+- **Muse stage:** VIN confirmed (EX-L AWD, 7 seats); live at $31,995 one-price / 64,530 mi; 5 model-year campaigns (23V735000 first). No history stated.
+- **Captain's chairs, color:** photo-confirmed by Claude at filing (Lunar Silver; open-aisle second row).
+- **Frontier:** Closest 2023 Pilot (~95 mi), AWD, Honda dealer — real advantages — but ~$3.7k over Wesley Chapel before tax at a no-haggle store, and well over the ~$30k ceiling.
+- **Verdict: evaluated — park.** The best fallback if Stephen decides AWD and proximity are worth stretching the ceiling; otherwise revisit only on a price drop.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2023 Pilot EX-L, AWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $31,995 / 64,530 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md. Status lead → vin-checked.
 - 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage/color confirmed as filed, no mismatches. Advanced to `ready-for-evaluation`.
+- 2026-10-25 — Claude evaluation complete: NOT DOMINATED but fails ceiling — park. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
