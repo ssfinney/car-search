@@ -1,6 +1,6 @@
 # 2020 TOYOTA Highlander XLE 4x2 — Volkswagen of Macon, Macon GA
 
-- **Status:** lead (affordability unverified; advertised price implies OTD likely over ~$30k ceiling)
+- **Status:** ready-for-evaluation (affordability flag stands: $28,969 incl. disclosed dealer fees but excl. tax/title implies OTD likely over the ~$30k ceiling — written OTD is the decisive gate)
 - **Dealer/location:** Volkswagen of Macon, Macon GA
 - **Listing:** https://www.vwofmacon.com/used/Toyota/2020-Toyota-Highlander-623a7666ac182113dd76063d2389a9c0.htm
 - **Price:** $28,969 vehicle price (dealer fees and government charges unverified; implies ~$31.5k+ OTD before negotiation)
@@ -48,6 +48,14 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24
+
+- VIN check complete; full report at `history/macon-2020-highlander-xle/vin-check-2026-10-24.md`. vPIC decode clean (ErrorText 0, check digit correct) and matches the filed year/trim/drivetrain/engine exactly. The filed recall list (4 campaigns) and complaints pattern (321 total) match the NHTSA APIs exactly.
+- Listing live-verified 2026-10-24: VW of Macon page loads, car marked "On The Lot." Price $28,969 ("VW of Macon Price") matches the filed total, and the page discloses its build: $27,831 list + $988 administrative fee + $150 electronic filing fee. Tax/title is NOT included. Mileage 60,284, VIN, and Magnetic Gray Metallic all match filed.
+- 2020-specific safety verified for evaluation (detail in history report): IIHS small overlap G/G, updated side G, front crash prevention Superior, NHTSA 5-star overall — but **XLE headlights are rated P (Poor) for 2020 models only** (2021–22 XLE rate A), and the updated frontal test is not rated for 2020. Reliability: no 2020 row in the guide; secondary Consumer Reports roundups report 4/5 — indicative only, not read from CR directly.
+- Still open: adverse history (no CARFAX pulled — owners/accidents/title unverified), VIN-specific recall completion status, captain's-chair photo confirmation (Claude, at evaluation), written OTD, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-24 — Muse: VIN check complete; listing live-verified at the filed price with dealer fees disclosed on the page. Advanced `lead` → `vin-checked` → `ready-for-evaluation`.
