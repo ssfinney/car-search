@@ -39,9 +39,17 @@ Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `r
 - **Frontier:** Closest 2023 Pilot (~95 mi), AWD, Honda dealer — real advantages — but ~$3.7k over Wesley Chapel before tax at a no-haggle store, and well over the ~$30k ceiling.
 - **Verdict: evaluated — park.** The best fallback if Stephen decides AWD and proximity are worth stretching the ceiling; otherwise revisit only on a price drop.
 
+## Muse conflicting-observation note — 2026-10-25 (repo-watch follow-up)
+
+- **CONFLICT — read before acting on the "live" re-check above.** Two separate read-only live-browser checks of the exact listing URL found the dealer site loading but the listing URL itself returning the dealer's "Oops! / This page is in the shop" missing-page error ("Sorry, we were unable to locate the page you requested"): first at 09:18–09:19 EDT (confirmed on reload), and again as a tiebreaker at 09:41–09:42 EDT, this time with no access block encountered — the page itself presented the missing-page error. Neither check could verify VIN, price, mileage, or color from that page.
+- This directly contradicts the "Listing LIVE" re-check recorded above (30 photos, full details matching). The weight of evidence now favors the listing being gone from that URL or moved to a different URL; it does not by itself prove the vehicle was sold. The car may still exist in the dealer's inventory under a new URL — that takes a dealer-inventory search by VIN 5FNYG1H52PB004969 / stock PB004969 to settle.
+- **Status left at `evaluated` — this note changes no verdict and no other entry.** But do not treat the listing as confirmed-live on the basis of the re-check above: re-verify the URL or dealer inventory before any travel, call, or decision that assumes this car is still available at $31,995. Claude's "park" verdict already applies on price regardless, so the practical impact is limited to any future reconsideration of this car.
+- Addendum appended to `history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md`.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2023 Pilot EX-L, AWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $31,995 / 64,530 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md. Status lead → vin-checked.
 - 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage/color confirmed as filed, no mismatches. Advanced to `ready-for-evaluation`.
 - 2026-10-25 — Claude evaluation complete: NOT DOMINATED but fails ceiling — park. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+- 2026-10-25 — Repo-watch conflicting observation (live browser 09:18–09:19 EDT and tiebreaker 09:41–09:42 EDT): exact listing URL returned the dealer's "Oops / page in the shop" missing-page error both times, contradicting the "Listing LIVE" re-check above. Listing availability at $31,995 is NOT settled — re-verify the URL or dealer inventory (VIN/stock PB004969) before acting. Status unchanged.
