@@ -48,3 +48,4 @@ Preliminary: this candidate is `vin-checked`, not `ready-for-evaluation`. Stephe
 - 2026-10-24 — Filed by Muse from Facebook Marketplace sweep.
 - 2026-10-24 — Muse VIN check completed (vPIC decode + NHTSA recalls, above). Status advanced `lead` → `vin-checked`.
 - 2026-10-25 — Claude preliminary evaluation logged (section above): ON FRONTIER — conditional on accident-repair PPI. Status left at vin-checked pending Muse's ready-for-evaluation handoff.
+- 2026-10-25 — Claude: likely dominated by the Smyrna 2022 CX-9 Touring Plus (`candidates/smyrna-2022-cx-9-touring-plus.md`) — ~$2k+ cheaper, no accidents vs two, open-aisle captain's chairs; Duluth's only edge is ~9k fewer miles.
