@@ -46,6 +46,12 @@ Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `r
 - **Status left at `evaluated` — this note changes no verdict and no other entry.** But do not treat the listing as confirmed-live on the basis of the re-check above: re-verify the URL or dealer inventory before any travel, call, or decision that assumes this car is still available at $31,995. Claude's "park" verdict already applies on price regardless, so the practical impact is limited to any future reconsideration of this car.
 - Addendum appended to `history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md`.
 
+## Muse inventory-search resolution — 2026-10-25 (live browser, at Stephen's direction)
+
+- **SETTLED: the car is in the dealer's inventory, listed at the filed figures, at the same URL.** A read-only inventory search on 2026-10-25 at 13:02–13:03 EDT found: (1) the exact listing URL loaded the full vehicle page — VIN 5FNYG1H52PB004969, stock PB004969, Lunar Silver, 64,530 mi, AutoNation 1Price $31,995 ($30,797 + $999 service fee + $199 filing); (2) a VIN search of the dealer's used inventory returned "1 Vehicle Matching" — this car; (3) a stock-number search returned the same single match, with the inventory filter showing "Vehicle Status: Available." The URL is unchanged; the car was not moved to a new listing.
+- Read of the contradiction: the two "Oops / page in the shop" loads (09:18–09:19 and 09:41–09:42 EDT) were intermittent dealer-site errors, not a removal — the same URL served the full page at 09:19–09:20 EDT, again during this search, and the dealer's own inventory system lists the car as available. The conflicting-observation note above stays in the record as the history of the discrepancy.
+- Caveat: this is the dealer's website inventory state, not a dealer-confirmed stock check (no "Confirm Availability" submission, no call — agents do not contact dealers). Status stays `evaluated`; Claude's "park" verdict on price is unaffected. Addendum 4 appended to `history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md`.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
@@ -53,3 +59,4 @@ Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `r
 - 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage/color confirmed as filed, no mismatches. Advanced to `ready-for-evaluation`.
 - 2026-10-25 — Claude evaluation complete: NOT DOMINATED but fails ceiling — park. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
 - 2026-10-25 — Repo-watch conflicting observation (live browser 09:18–09:19 EDT and tiebreaker 09:41–09:42 EDT): exact listing URL returned the dealer's "Oops / page in the shop" missing-page error both times, contradicting the "Listing LIVE" re-check above. Listing availability at $31,995 is NOT settled — re-verify the URL or dealer inventory (VIN/stock PB004969) before acting. Status unchanged.
+- 2026-10-25 — Muse inventory search by VIN and stock number (Stephen authorized; live browser 13:02–13:03 EDT): car found in dealer inventory, "Vehicle Status: Available," exact URL loads the full page at the filed $31,995 / 64,530 mi. Contradiction resolved — the two Oops-page loads were intermittent site errors. Status unchanged (`evaluated`, park).
