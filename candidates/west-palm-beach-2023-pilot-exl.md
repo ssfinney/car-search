@@ -1,6 +1,6 @@
 # 2023 Honda Pilot EX-L 7-Passenger AWD — Mike Maroone Chevrolet, West Palm Beach FL
 
-- **Status:** lead
+- **Status:** vin-checked
 - **Dealer/location:** Mike Maroone Chevrolet, 2235 Okeechobee Blvd, West Palm Beach FL · 561-571-7046 · ~600 mi from Macon
 - **Listing:** https://www.mikemaroonechevrolet.com/used/Honda/2023-Honda-Pilot-c56e8098ac185e19df2a9b9225d540b3.htm
 - **Price:** **$30,294 advertised** including $995 dealer handling and $499 FL electronic filing fee, before GA TAVT/title.
@@ -26,3 +26,4 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
+- 2026-10-25 — Muse stage: VIN confirmed (2023 Pilot EX-L, AWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $30,294 unreconfirmed, and the odometer discrepancy (51,401 listed vs 43,366 photo) is still open. Held from ready-for-evaluation pending a listing re-check. Report: history/west-palm-beach-2023-pilot-exl/vin-check-2026-10-25.md. Status lead → vin-checked.

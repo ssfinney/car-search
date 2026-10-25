@@ -1,6 +1,6 @@
 # 2021 Honda Pilot Touring 7-Passenger FWD — Ford Cordele, Cordele GA
 
-- **Status:** lead
+- **Status:** vin-checked
 - **Dealer/location:** Ford Cordele (Powerhouse Automotive Group), Cordele GA · 229-471-9789 · ~65 mi from Macon (closest candidate on the board)
 - **Listing:** https://www.fordcordele.com/used/-/5FNYF5H61MB041896.htm
 - **Price:** $29,998 "market value" − $4,498 + $995 dealer fee = **$26,495 before GA TAVT/title** (dealer page, 2026-10-25). Not an OTD quote.
@@ -26,3 +26,4 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
+- 2026-10-25 — Muse stage: VIN confirmed (2021 Pilot TOURING-7, FWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $26,495 / 65,284 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/cordele-2021-pilot-touring/vin-check-2026-10-25.md. Status lead → vin-checked.

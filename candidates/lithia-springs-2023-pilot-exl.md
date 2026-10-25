@@ -1,6 +1,6 @@
 # 2023 Honda Pilot EX-L 7-Passenger AWD — AutoNation Honda Thornton Road, Lithia Springs GA
 
-- **Status:** lead
+- **Status:** vin-checked
 - **Dealer/location:** AutoNation Honda Thornton Road, 1979 Thornton Rd, Lithia Springs GA · 470-970-5654 · ~95 mi from Macon
 - **Listing:** https://www.autonationhondathorntonroad.com/used/Honda/2023-Honda-Pilot-68c91bd7ac180e99be2ff67d88bcb75c.htm
 - **Price:** $30,797 + $999 dealer service fee + $199 electronic filing = **$31,995 "AutoNation 1Price"** (no-haggle) before GA TAVT/title.
@@ -26,3 +26,4 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
+- 2026-10-25 — Muse stage: VIN confirmed (2023 Pilot EX-L, AWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $31,995 / 64,530 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md. Status lead → vin-checked.
