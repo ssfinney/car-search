@@ -1,6 +1,6 @@
 # 2023 Honda Pilot EX-L 7-Passenger AWD — AutoNation Honda Thornton Road, Lithia Springs GA
 
-- **Status:** vin-checked
+- **Status:** ready-for-evaluation
 - **Dealer/location:** AutoNation Honda Thornton Road, 1979 Thornton Rd, Lithia Springs GA · 470-970-5654 · ~95 mi from Macon
 - **Listing:** https://www.autonationhondathorntonroad.com/used/Honda/2023-Honda-Pilot-68c91bd7ac180e99be2ff67d88bcb75c.htm
 - **Price:** $30,797 + $999 dealer service fee + $199 electronic filing = **$31,995 "AutoNation 1Price"** (no-haggle) before GA TAVT/title.
@@ -23,7 +23,13 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 - **Frontier:** Not strictly dominated (closest, AWD, mid-60s miles), but it fails the household ceiling by a wide margin.
 - **Verdict:** Park. Revisit only on a material AutoNation price drop.
 
+## Muse listing re-check — 2026-10-25 (live browser)
+
+- **Listing LIVE:** the exact URL loads as a specific "Used 2023 Honda Pilot EX-L 7 Passenger SUV" page (30 photos, no sold banner). VIN on page matches; $30,797 + $999 service fee + $199 filing = **$31,995 "AutoNation 1Price"** matches the filed price (arithmetic verified); mileage **64,530** matches; Lunar Silver matches; power liftgate confirmed on the page. No mismatches.
+- Addendum appended to `history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md`. Status advanced `vin-checked` → `ready-for-evaluation`. Over-ceiling flag unchanged. Remaining gates: written OTD, history report, VIN-specific recall completion (23V735000 first), independent PPI.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2023 Pilot EX-L, AWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $31,995 / 64,530 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/lithia-springs-2023-pilot-exl/vin-check-2026-10-25.md. Status lead → vin-checked.
+- 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage/color confirmed as filed, no mismatches. Advanced to `ready-for-evaluation`.
