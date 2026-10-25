@@ -1,6 +1,6 @@
 # 2023 Honda Pilot EX-L 7-Passenger AWD — Mike Maroone Chevrolet, West Palm Beach FL
 
-- **Status:** vin-checked
+- **Status:** ready-for-evaluation
 - **Dealer/location:** Mike Maroone Chevrolet, 2235 Okeechobee Blvd, West Palm Beach FL · 561-571-7046 · ~600 mi from Macon
 - **Listing:** https://www.mikemaroonechevrolet.com/used/Honda/2023-Honda-Pilot-c56e8098ac185e19df2a9b9225d540b3.htm
 - **Price:** **$30,294 advertised** including $995 dealer handling and $499 FL electronic filing fee, before GA TAVT/title.
@@ -23,7 +23,14 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 - **Frontier:** Versus Wesley Chapel it costs ~$2k more before tax and is ~200 mi farther, for 34k fewer miles and AWD. The mileage is a genuine advantage, so not strictly dominated, but it fails the ceiling.
 - **Verdict:** Park. Revisit only if the price drops ~$3k+ or the ceiling moves. Resolve the odometer discrepancy before any further work.
 
+## Muse listing re-check — 2026-10-25 (live browser)
+
+- **Listing LIVE:** the exact URL loads as a specific "2023 Honda Pilot AWD EX-L 7 Passenger" page (23 photos, no sold banner). VIN on page matches; **advertised $30,294** matches the filed price (page states the $995 handling and $499 FL filing fees are included in that figure); listed mileage **51,401** matches the filing; black; power liftgate confirmed on the page.
+- **Odometer discrepancy remains OPEN:** the re-check could not reach a readable odometer photo in the gallery, so 51,401 listed vs 43,366 photo is unresolved and stays a hard gate before any further work on this car.
+- Addendum appended to `history/west-palm-beach-2023-pilot-exl/vin-check-2026-10-25.md`. Status advanced `vin-checked` → `ready-for-evaluation` with the odometer flag. Remaining gates: resolve the odometer reading, written OTD, history report, VIN-specific recall completion (23V735000 first), independent PPI.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2023 Pilot EX-L, AWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $30,294 unreconfirmed, and the odometer discrepancy (51,401 listed vs 43,366 photo) is still open. Held from ready-for-evaluation pending a listing re-check. Report: history/west-palm-beach-2023-pilot-exl/vin-check-2026-10-25.md. Status lead → vin-checked.
+- 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/listed mileage confirmed as filed; odometer photo discrepancy still unresolved. Advanced to `ready-for-evaluation` with that flag.
