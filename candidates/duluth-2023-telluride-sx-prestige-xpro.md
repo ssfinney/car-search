@@ -27,7 +27,23 @@
 - Independent PPI before any deposit (Canton rule) — collision-specialist inspection per the CARFAX recommendation.
 - Full CARFAX pull (the listing summary is not the report) before any finalist decision.
 
+## Claude evaluation — 2026-10-25 (preliminary)
+
+Preliminary: this candidate is `vin-checked`, not `ready-for-evaluation`. Stephen asked Claude to start evaluations on 2026-10-25; status is left unchanged for Muse's handoff. Frontier comparison is across the vin-checked pool. Payments use $17,000 down, 60 mo at 6% (× 0.01933280153), before the $130 Mazda offset.
+
+**Frontier verdict: ON FRONTIER only as the safety maximum — low priority.**
+
+- **Captain's chairs: PHOTO-CONFIRMED by Claude** (Marketplace photos 9 and 11): two second-row captain's chairs with an open center aisle. Green exterior photo-confirmed. Liftgate shown open; power liftgate is standard on SX-Prestige but not photo-provable.
+- **Safety (IIHS 2023 Telluride):** G in every listed test including updated frontal (2023–25) and updated side (2023–25); headlights G all trims. Best in the pool. Note the 2020–22 Telluride does **not** share this — its updated side is M (2020–22).
+- **Reliability:** CR 2023 Telluride "less reliable."
+- **Price:** $29,409 advertised before fees and TAVT — the delivered total will almost certainly exceed ~$30k (~$240/mo at advertised alone).
+- **Mileage:** 91,518 — highest of the newer cars; ~150k at payoff.
+- **Condition:** lease car; minor damage 2024-04-19 (CARFAX recommends collision-specialist inspection); at least one open recall.
+- **Frontier:** Not strictly dominated (nothing else matches its safety), but it is the weakest way to buy that safety: highest price, highest miles, weaker reliability. The Canton 2023 Telluride SX lead (43k mi, $30,820 private, disclosed accident) would likely dominate it if Canton verifies.
+- **Verdict:** Keep on the frontier as the safety-maximum reference, lowest priority. Pursue only if the dealer moves the price materially (target delivered ≤ ~$30k). Gates: written OTD, open-recall completion, full CARFAX, collision-focused PPI.
+
 ## Log
 
 - 2026-10-24 — Filed by Muse from Facebook Marketplace sweep.
 - 2026-10-24 — Muse VIN check completed (vPIC decode + NHTSA recalls, above). Status advanced `lead` → `vin-checked`.
+- 2026-10-25 — Claude preliminary evaluation logged (section above): ON FRONTIER only as the safety maximum — low priority. Status left at vin-checked pending Muse's ready-for-evaluation handoff.

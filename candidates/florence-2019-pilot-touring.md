@@ -28,7 +28,22 @@
 - Honda VIN campaign-status printout; maintenance records.
 - Independent PPI before any deposit (Canton rule).
 
+## Claude evaluation — 2026-10-25 (preliminary)
+
+Preliminary: this candidate is `vin-checked`, not `ready-for-evaluation`. Stephen asked Claude to start evaluations on 2026-10-25; status is left unchanged for Muse's handoff. Frontier comparison is across the vin-checked pool. Payments use $17,000 down, 60 mo at 6% (× 0.01933280153), before the $130 Mazda offset.
+
+**Frontier verdict: STANDBY — likely dominated if a 2018–19 Highlander verifies.**
+
+- **Captain's chairs:** NOT photo-confirmed — no listing URL on file and the selling dealer is unresolved. vPIC trim `TOURING-7` (7-passenger Touring = captain's chairs) is strong spec evidence, not confirmation.
+- **Safety:** 2016–22 Pilot structure (updated side M, passenger small overlap A, Touring headlights G).
+- **Reliability:** CR 2019 Pilot "less reliable" (transmission, electrical, infotainment trouble areas).
+- **Price:** $22,284 advertised (~$102/mo before fees/tax); belt due now by age (in service ~2019) — add ~$1,200.
+- **Recalls:** 19V784000 weld inspection applies to 2019 Pilots — confirm completed. 26V365000 rear-subframe corrosion applies if the car was ever sold in a listed salt-belt state — check owner history.
+- **Frontier:** Versus Langdale it saves a few thousand for 15.7k more miles, an older year, and unverified history (owner count conflicts, dealer identity conflicts). Versus a 2018–19 Highlander XLE at similar or lower price (guide's cash-preservation role, CR "more reliable"), it is likely dominated.
+- **Verdict:** Standby. Not worth Stephen's call until the dealer identity is resolved, and only if no 2018–19 Highlander in the pool verifies cleanly.
+
 ## Log
 
 - 2026-10-24 — Filed by Muse from Stephen's workbook shortlist (Preliminary #7/#9 deduped). Workbook facts recorded as reported, not verified.
 - 2026-10-24 — Muse VIN check completed (vPIC decode + model-year campaign list, in `history/`). Status advanced `lead` → `vin-checked`.
+- 2026-10-25 — Claude preliminary evaluation logged (section above): STANDBY — likely dominated if a 2018–19 Highlander verifies. Status left at vin-checked pending Muse's ready-for-evaluation handoff.

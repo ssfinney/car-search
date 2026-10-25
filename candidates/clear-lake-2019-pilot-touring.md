@@ -28,7 +28,18 @@
 - VIN campaign records from Honda.
 - Independent local PPI before any deposit (Canton rule) — at this distance, the inspection has to be arranged where the car sits.
 
+## Claude evaluation — 2026-10-25 (preliminary)
+
+Preliminary: this candidate is `vin-checked`, not `ready-for-evaluation`. Stephen asked Claude to start evaluations on 2026-10-25; status is left unchanged for Muse's handoff. Frontier comparison is across the vin-checked pool. Payments use $17,000 down, 60 mo at 6% (× 0.01933280153), before the $130 Mazda offset.
+
+**Frontier verdict: RECOMMEND ELIMINATION — likely dominated by Langdale.**
+
+- **Captain's chairs:** NOT photo-confirmed (no listing URL). vPIC `TOURING-7` is strong spec evidence only.
+- **Frontier:** Same generation, safety, and reliability evidence as Langdale, one model year older, 827 miles away (far outside the 300-mile radius), with an unquoted delivered price that Gemini estimates at $28k+ — above Langdale's written $26,416. Its only advantage is ~6k fewer miles. History and Honda Certified status are unverified.
+- **Verdict:** Likely dominated by Langdale. Recommend elimination unless documented Honda Certified coverage and a delivered OTD below Langdale's both materialize.
+
 ## Log
 
 - 2026-10-24 — Filed by Muse from Stephen's workbook shortlist (Preliminary #6). Workbook facts recorded as reported, not verified. Flagged conditional on distance.
 - 2026-10-24 — Muse VIN check completed (vPIC decode + model-year campaign list, in `history/`). Status advanced `lead` → `vin-checked`.
+- 2026-10-25 — Claude preliminary evaluation logged (section above): RECOMMEND ELIMINATION — likely dominated by Langdale. Status left at vin-checked pending Muse's ready-for-evaluation handoff.
