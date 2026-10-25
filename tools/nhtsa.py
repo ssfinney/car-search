@@ -53,14 +53,26 @@ def decode_vin(vin: str) -> Dict[str, Any]:
     url = VPIC_URL.format(vin=clean_vin)
     resp = _http_get_json(url)
     if not resp or "Results" not in resp or not resp["Results"]:
-        return {"vin": clean_vin, "error": "No vPIC results returned"}
+        return {"vin": clean_vin, "status": "error", "error": "vPIC decode request failed or timed out"}
 
     res = resp["Results"][0]
+    error_code = res.get("ErrorCode", "")
+    error_text = res.get("ErrorText", "")
+    make = res.get("Make", "").strip()
+    model = res.get("Model", "").strip()
+    year = res.get("ModelYear", "").strip()
+
+    is_error = not (make and year) or (error_code not in ("", "0"))
+    status = "error" if is_error else "ok"
+    error = error_text if is_error else ""
+
     return {
         "vin": clean_vin,
-        "make": res.get("Make", "").strip(),
-        "model": res.get("Model", "").strip(),
-        "year": res.get("ModelYear", "").strip(),
+        "status": status,
+        "error": error,
+        "make": make,
+        "model": model,
+        "year": year,
         "trim": res.get("Trim", "").strip(),
         "series": res.get("Series", "").strip(),
         "body_class": res.get("BodyClass", "").strip(),
@@ -73,8 +85,8 @@ def decode_vin(vin: str) -> Dict[str, Any]:
         "plant_country": res.get("PlantCountry", "").strip(),
         "plant_state": res.get("PlantState", "").strip(),
         "plant_city": res.get("PlantCity", "").strip(),
-        "error_code": res.get("ErrorCode", ""),
-        "error_text": res.get("ErrorText", ""),
+        "error_code": error_code,
+        "error_text": error_text,
     }
 
 
@@ -160,13 +172,24 @@ def run_nhtsa_chain(vin: str) -> Dict[str, Any]:
     model = vpic.get("model")
     year = vpic.get("year")
 
-    recalls = {"count": 0, "campaigns": []}
-    complaints = {"count": 0, "patterns": {}, "top_issues": []}
-
-    if make and model and year:
+    if make and model and year and vpic.get("status") != "error":
         recalls = get_recalls(make, model, year)
         complaints = get_complaints_pattern(make, model, year)
-
+    else:
+        err_msg = vpic.get("error") or "vPIC VIN decode failed; make/model/year unavailable"
+        recalls = {
+            "status": "error",
+            "error": f"Recalls lookup skipped ({err_msg})",
+            "count": None,
+            "campaigns": [],
+        }
+        complaints = {
+            "status": "error",
+            "error": f"Complaints lookup skipped ({err_msg})",
+            "count": None,
+            "patterns": {},
+            "top_issues": [],
+        }
     return {
         "vin": clean_vin,
         "vpic": vpic,
@@ -192,6 +215,10 @@ def format_nhtsa_summary(data: Dict[str, Any]) -> str:
 
     engine_str = f"{disp}L V{cyl}" if disp and cyl else ""
 
+    if vpic.get("status") == "error" or not (make and year):
+        vpic_line = f"- **NHTSA vPIC decode:** Failed ({vpic.get('error', 'Unable to decode VIN')})"
+    else:
+        vpic_line = f"- **NHTSA vPIC decode:** {year} {make} {model} {trim} | Drive: {drive} | Seats: {seats} | Engine: {engine_str}"
     campaign_ids = [c.get("campaign_number") for c in recalls.get("campaigns", []) if c.get("campaign_number")]
     campaign_str = ", ".join(campaign_ids) if campaign_ids else "None"
 
@@ -208,7 +235,7 @@ def format_nhtsa_summary(data: Dict[str, Any]) -> str:
         complaint_line = f"- **NHTSA Complaints pattern ({complaints.get('count', 0)} total):** {top_complaints}"
 
     lines = [
-        f"- **NHTSA vPIC decode:** {year} {make} {model} {trim} | Drive: {drive} | Seats: {seats} | Engine: {engine_str}",
+        vpic_line,
         recall_line,
         complaint_line,
     ]
