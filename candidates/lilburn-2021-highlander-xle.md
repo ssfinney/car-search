@@ -69,8 +69,17 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - **Flag:** Automax Atlanta's site has a "Manufacturer Buyback" section — confirm this VIN is **not** a lemon/manufacturer-buyback title before anything else.
 - **Verdict: evaluated — recommend as a co-lead with Wesley Chapel.** Gates: title/buyback check and full history (CARFAX or AutoCheck), written OTD (likely ~$31k with TAVT — over ceiling unless the $699 fee or price moves), 26V128000 completion, PPI.
 
+## Muse buyback check — 2026-10-25 (live browser)
+
+- **Question:** is VIN 5TDGZRBH0MS552547 a manufacturer-buyback / lemon-branded title? Claude's flag came from the "MANUFACTURER BUYBACK" item in Automax Atlanta's site navigation.
+- **Listing page:** no "lemon," "branded title," or buyback wording anywhere in this vehicle's listing or description. "Manufacturer Buyback" appears only as the site-wide nav link — it is a dealer marketing category, not a label on this car.
+- **Dealer's buyback page** (automaxatlanta.com/manufacturer-buyback): informational video page only; it lists no buyback inventory at all. This VIN / stock 28633C appears nowhere on it.
+- **AutoCheck report:** the listing's "View Report" link (automaxatlanta.com/autocheck/get/1593882) would not render — "the vehicle history report cannot be displayed at this time. Please ask the dealer for a copy." Reloaded once, same result. Only verified AutoCheck datum: score 92 (similar vehicles 88–93) from the listing widget.
+- **Verdict: no evidence this car is a buyback; title brand NOT verified either way.** The document that settles it — the full AutoCheck (or CARFAX) report — has to come from the dealer. Gate stays open until that report is in hand; treat as a routine first ask on this car, not a red flag found.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $29,323). Status lead → ready-for-evaluation. Report: history/lilburn-2021-highlander-xle/vin-check-2026-10-24.md.
 - 2026-10-25 — Claude evaluation complete: ON FRONTIER — top-tier contender; may displace Wesley Chapel pending history. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+- 2026-10-25 — Muse buyback check: listing carries no buyback/lemon branding (nav link only); dealer's buyback page lists no inventory; linked AutoCheck report would not display on the dealer site, so the title brand itself remains unverified — full history report from the dealer is the closing document. No buyback evidence found.
