@@ -18,6 +18,16 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | ALM, Perry | 2022 Ascent Touring | $22,820 | — | lead | [candidates/perry-2022-ascent-touring.md](candidates/perry-2022-ascent-touring.md) |
 | Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-2021-highlander-xle.md](candidates/marietta-2021-highlander-xle.md) |
 | Chatham Parkway Toyota, Savannah | 2021 Highlander XLE AWD | $31,797 incl. fee | 64,079 | lead (over ceiling) | [candidates/savannah-2021-highlander-xle.md](candidates/savannah-2021-highlander-xle.md) |
+| Automax Atlanta, Lilburn | 2021 Highlander XLE AWD | $28,375 ($29,323 dealer total) | 71,289 | lead | [candidates/lilburn-2021-highlander-xle.md](candidates/lilburn-2021-highlander-xle.md) |
+| ALM Hyundai West, Lithia Springs | 2022 Highlander XLE FWD | $27,164 | 93,573 | lead | [candidates/lithia-springs-2022-highlander-xle.md](candidates/lithia-springs-2022-highlander-xle.md) |
+| Ed Voyles Kia, Smyrna | 2022 CX-9 Touring Plus AWD | $24,898 ($25,995 dealer total) | 63,824 | lead | [candidates/smyrna-2022-cx-9-touring-plus.md](candidates/smyrna-2022-cx-9-touring-plus.md) |
+| CarMax, Buford | 2023 Ascent Limited 7-passenger AWD | $26,998 | 52,536 | lead | [candidates/buford-2023-ascent-limited.md](candidates/buford-2023-ascent-limited.md) |
+| Gerald Jones Mazda, Augusta | 2023 Telluride SX FWD | $27,771 ($28,360 w/fee) | 78,633 | lead | [candidates/augusta-2023-telluride-sx.md](candidates/augusta-2023-telluride-sx.md) |
+| AutoNation Toyota, Buford | 2020 Highlander XLE FWD | $26,189 | 107,372 | ready-for-evaluation | [candidates/buford-2020-highlander-xle.md](candidates/buford-2020-highlander-xle.md) |
+| Volkswagen of Macon, Macon | 2020 Highlander XLE FWD | $28,969 advertised (fees disclosed) | 60,284 | ready-for-evaluation | [candidates/macon-2020-highlander-xle.md](candidates/macon-2020-highlander-xle.md) |
+| 1st Choice Autos, Smyrna | 2022 Highlander XLE AWD | $25,999 | 100,363 | eliminated (listing gone, 2026-10-25) | [eliminated/smyrna-2022-highlander-xle.md](eliminated/smyrna-2022-highlander-xle.md) |
+| EchoPark Automotive, Duluth | 2018 Highlander Limited Platinum FWD | $23,197 ($23,696 w/ fee) | 74,326 | eliminated (listing gone, 2026-10-25) | [eliminated/duluth-2018-highlander-ltdltd-platinum.md](eliminated/duluth-2018-highlander-ltdltd-platinum.md) |
+| UI Autos, Lawrenceville | 2023 Pilot EX-L 7-passenger FWD | $26,920 (aggregator figure; dealer listing verified gone 2026-10-24) | 103,581 | eliminated (listing gone) | [eliminated/lawrenceville-2023-pilot-ex-l.md](eliminated/lawrenceville-2023-pilot-ex-l.md) |
 
 ### Workbook Pilot shortlist (Stephen-supplied "Car Concierge Pro", 2026-10-24)
 
@@ -45,7 +55,7 @@ Facebook Marketplace sweep against the guide's targets. All prices are advertise
 | Dealer salesperson post, Duluth | 2022 CX-9 Signature AWD | $25,149 | 54,955 | vin-checked | [candidates/duluth-2022-cx-9-signature.md](candidates/duluth-2022-cx-9-signature.md) |
 | Dealer salesperson post, Duluth | 2023 Telluride SX-Prestige X-Pro AWD | $29,409 | 91,518 | vin-checked | [candidates/duluth-2023-telluride-sx-prestige-xpro.md](candidates/duluth-2023-telluride-sx-prestige-xpro.md) |
 
-Eliminated: see `eliminated/` (Canton 2016 Elite; Alpharetta 2021 Highlander XLE).
+Eliminated: see `eliminated/` (Canton 2016 Elite; Alpharetta 2021 Highlander XLE; McDonough 2020 Highlander XLE — listing gone; Lawrenceville 2023 Pilot EX-L — dealer listing gone, verified 2026-10-24; Smyrna 2022 Highlander XLE and Duluth 2018 Highlander Limited Platinum — listings gone, 2026-10-25).
 
 ## Open decision
 

@@ -14,5 +14,6 @@ Seed queue. These become GitHub Issues once a remote exists; claim per PROTOCOL.
 - [ ] **Oxmoor 2023 Pilot EX-L: written OTD quote** — Stephen's call to Oxmoor Chrysler; agents prepare the question list (unconditional OTD with all fees, taxes/title, transport cost, benefits-package optionality). Current known figure is $29,199 before government charges — not a quote. See `candidates/oxmoor-2023-pilot-exl.md`.
 
 ## Done
+- [x] **CLI tooling build (local omp agents)** — build the search tooling in a `tools/` directory: MarketCheck/Auto.dev search per the `PARETO_GUIDE.md` criteria (targets, mileage preference, radius from Macon), NHTSA chain (VIN decode + recalls + complaints), dedupe against existing `candidates/`, and a candidate-file generator that files matches as `lead` per PROTOCOL.md. Initial sweep completed 2026-10-24.
 
 - [x] Canton 2016 Elite closed out — PPI elimination recorded; $500 deposit refund confirmed received 2026-10-24.
