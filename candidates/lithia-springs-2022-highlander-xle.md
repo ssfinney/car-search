@@ -1,6 +1,6 @@
 # 2022 Toyota Highlander XLE FWD — ALM Hyundai West, Lithia Springs GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** ALM Hyundai West, Lithia Springs GA
 - **Listing:** https://www.almcars.com/inventory/2022-toyota-highlander-xle-5TDGZRAH2NS094626
 - **Price:** $27,164 (dealer fees unverified)
@@ -54,7 +54,21 @@
 - **Price correction:** dealer page LIVE 2026-10-24 at **$26,964** — the filed $27,164 is a stale aggregator figure; use $26,964. The page's FAQ text confirms FWD, 7 passengers, captain's seats, and power liftgate (dealer text; the photo check remains Claude's).
 - Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: written OTD, captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: ON FRONTIER — cheaper Highlander, conditional on seating photo and rental history.**
+
+- **Captain's chairs: UNVERIFIED** — the listing has only two exterior photos. Dealer FAQ text says "captain's seats"; text does not verify. Needs photos or in-person check.
+- **Price:** $25,720 + $995 doc + $249 filing = **$26,964** before tax (~$193/mo). 93,573 mi. Magnetic Gray.
+- **CARFAX read by Claude** (summary in `history/lithia-springs-2022-highlander-xle/`): no accidents; **ex-rental** for its first ~46.6k mi (NY/NJ), then one Georgia personal owner with regular Toyota-dealer service; was Toyota Gold Certified in 2024. **Open recall 26V128 (second-row seat-back recliner may not lock)**.
+- **Safety:** small overlap G/G, updated side G, updated frontal M, headlights A. **Reliability:** CR 2022 "more reliable."
+- **Versus Lilburn 2021:** ~$2,360 cheaper, but +22k miles, FWD, rental first owner, seating unconfirmed. **Versus Wesley Chapel:** ~$1,300 cheaper, +8k miles, better reliability evidence, much closer; rental history and A headlights against it.
+- **Verdict: evaluated — keep, conditional.** Gates: second-row photo/in-person check, 26V128 completion, written OTD, PPI (rental wear: brakes, suspension, interior).
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $26,964). Status lead → ready-for-evaluation. Report: history/lithia-springs-2022-highlander-xle/vin-check-2026-10-24.md.
+- 2026-10-25 — Claude evaluation complete: ON FRONTIER — cheaper Highlander, conditional on seating photo and rental history. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
