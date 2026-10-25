@@ -1,6 +1,6 @@
 # 2023 Honda Pilot EX-L 7-Passenger FWD — Wesley Chapel Honda, Wesley Chapel FL
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** Wesley Chapel Honda (Lithia), Wesley Chapel FL · 813-680-2143 · ~400 mi from Macon on I-75 (beyond the 300-mi radius)
 - **Listing:** https://www.wesleychapelhonda.com/viewdetails/used/5fnyg2h5xpb002358/2023-honda-pilot-suv
 - **Price:** KBB $29,080 − $2,460 + $1,199 doc + $439 FL tag-agency fee = **$28,258 before GA TAVT/title**. The $439 FL tag fee should not apply to a Georgia registration — ask to remove. Decline the optional $3,279 "Premier Package."
@@ -31,7 +31,21 @@ Preliminary: filed and evaluated by Claude at Stephen's direction on 2026-10-25,
 - **Remaining gates (unchanged):** CARFAX + iPacket service-receipt read, written delivered OTD with the $439 FL tag fee removed, VIN-specific recall completion, independent PPI. Distance ~400 mi is beyond the 300-mi radius; justification rests on the delivered total.
 - Status advanced `lead` → `vin-checked` → `ready-for-evaluation`.
 
+## Claude evaluation — 2026-10-25 (final)
+
+Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `ready-for-evaluation`; this section is Claude's evaluation-stage verdict and advances the status to `evaluated`. It builds on the preliminary section above and Muse's report in `history/`. Stephen decides next.
+
+**Frontier verdict: ON FRONTIER — #1 recommended 2023 Pilot; dominates Oxmoor.**
+
+- **CARFAX read by Claude (2026-10-25)** — summary in `history/wesley-chapel-2023-pilot-exl/carfax-summary-2026-10-25.md`: no accidents/damage, no title brands, 1 personal owner, Florida only (no salt exposure), 12 service records mostly at Honda dealers, transmission fluid at 62.6k, battery and tires new in 2025, serpentine belt replaced in dealer prep. One ~14.2k-mi oil documentation gap (71,188 → 85,371) — smaller than Oxmoor's 18.5k, and no cooling-system repair anywhere.
+- **Captain's chairs, color, liftgate:** photo-confirmed (chairs, red) at filing; liftgate in dealer spec. Muse re-confirmed price $28,258 and 85,371 mi live.
+- **Frontier:** Dominates Oxmoor — cheaper before tax, closer, Honda-dealer seller, documented history with no radiator/auction questions; Oxmoor's only edge is 4.5k fewer miles. Not dominated by anything: West Palm, Ricart, and Lithia Springs all cost $2k–3.7k more before tax.
+- **Trade vs Cordele:** current-generation crash structure (updated side G, all-trim G headlights) for roughly +$1.5–2k, +20k miles, average vs more-reliable CR evidence, and a 400-mi trip. This is the decision Stephen is actually making.
+- **Mileage note:** at ~85k now and this owner's pace was ~24k/yr; at Stephen's ~12k/yr it reaches ~145k by payoff.
+- **Verdict: evaluated — recommend as the 2023 Pilot to pursue.** Gates before any deposit: written delivered OTD (drop the $439 FL tag fee, decline the $3,279 package), Honda campaign printout confirming 23V735000 complete, independent PPI near Wesley Chapel (or trip-day), and ask for the 71k–85k maintenance explanation.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage complete: VIN confirmed against the filed claim, listing live at the filed price and mileage, VIN-check report saved under `history/wesley-chapel-2023-pilot-exl/`. Advanced to `ready-for-evaluation`.
+- 2026-10-25 — Claude evaluation complete: ON FRONTIER — #1 recommended 2023 Pilot; dominates Oxmoor. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
