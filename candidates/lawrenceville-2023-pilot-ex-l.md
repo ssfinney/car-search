@@ -3,7 +3,7 @@
 - **Status:** lead
 - **Dealer/location:** UI Autos, Lawrenceville GA
 - **Listing:** https://cargur.us/details/455004096
-- **Price:** $27,418 (dealer fees unverified)
+- **Price:** $26,920 (dealer fees unverified; dropped from $27,418 on 2026-10-25)
 - **Mileage:** 103,581
 - **Color:** Crystal Black Pearl
 - **Captain's chairs:** 7-passenger trim confirmed by NHTSA vPIC (photo confirmation pending by Claude)
@@ -24,7 +24,7 @@
 | Title, accident, flood, structural history | Adverse history check pending (Muse handoff) |
 | Service records and gaps | History report pending (Muse handoff) |
 | Open recalls and completion documentation | 5 model-year campaigns (23V735000, 24V859000, 24V900000, 25V031000, 25V391000); VIN-specific completion pending |
-| Vehicle price | $27,418 |
+| Vehicle price | $26,920 |
 | Dealer fees and mandatory packages | Unverified (no API returns dealer fees; written quote required) |
 | Taxes / title / registration | Unverified (dealer actual Georgia TAVT calculation required) |
 | Transport / travel | Local / within radius (Macon origin) |
@@ -33,7 +33,7 @@
 | Immediate maintenance estimate | Pending inspection and service history |
 | Effective acquisition cost: OTD + immediate work | Pending written OTD + inspection |
 | Down payment / retained cash / monthly payment | Default: $17,000 down / $2,000 retained / target $200–250/mo (60 mo @ 6%) |
-| Reason it survives against the other candidates | Primary 2023 Pilot alternative target; FWD 7-passenger EX-L at $27,418 in the 100-110k discount band. |
+| Reason it survives against the other candidates | Primary 2023 Pilot alternative target; FWD 7-passenger EX-L at $26,920 in the 100-110k discount band. |
 
 ## Notes
 
@@ -51,3 +51,4 @@
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-25 — Price drop observed: reduced from $27,418 to $26,920.
