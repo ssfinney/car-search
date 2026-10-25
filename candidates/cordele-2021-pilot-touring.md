@@ -40,9 +40,23 @@ Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `r
 - **Frontier:** Not dominated. Versus Langdale: better CR reliability (more vs less reliable), fewer miles, one owner, belt not due until ~2028, closer — Langdale keeps AWD, a written OTD, and documented service. Versus Wesley Chapel: ~$1.5–2k cheaper, 20k fewer miles, 335 mi closer, better reliability evidence — but the older crash structure (updated side M, passenger small overlap A).
 - **Verdict: evaluated — recommend as the value Pilot to pursue in parallel with Wesley Chapel.** It is the cheapest way to close the reliability gap, not the safety gap. Gates: CARFAX (incl. owner-state check for 26V365000), written OTD (push on the $995 fee), Honda campaign printout, independent PPI. Treat "Certified" as the dealer's POWER Promise only.
 
+## Claude evaluation update — 2026-10-25 (CARFAX read)
+
+Stephen supplied the dealer CARFAX; Claude read it (summary and PDF in `history/cordele-2021-pilot-touring/`). It materially changes the verdict above.
+
+**Revised frontier verdict: DOWNGRADED — conditional standby; no longer the value pick.**
+- **Repossessed 05/04/2026**, with **minor damage reported 05/07/2026**, then 5 months on Cordele's lot.
+- **~32k-mile / ~3-year service-record gap:** last owner service is an oil change at 33,064 mi (05/2023); next record is dealer prep at 65,283 mi (09/2026). Only 8 records total, versus Langdale's 13 Honda-dealer records with all drivetrain fluids and Wesley Chapel's 12 with transmission fluid.
+- **At least one open recall** per CARFAX (23V-174 mirror glass, 23V-431 MOST cables listed as remedy-available).
+- Positives that survive: 1 personal owner, Florida only (26V365000 does not apply), no title brands, consistent odometer, CR 2021 "more reliable" model-year evidence.
+- **Frontier effect:** Langdale (written OTD, AWD, fully documented service, similar miles) now likely dominates Cordele unless Cordele comes in materially cheaper — the model-year reliability edge does not override an undocumented maintenance history (guide §4, §7: do not stretch into poor-history examples). Wesley Chapel becomes the clear Pilot recommendation.
+- **What would revive it:** a written OTD well below Langdale's $26,416 (5 months on the lot and a repo history are leverage), any owner maintenance records for 2023–2026, open-recall completion, and a Honda-specialist PPI that specifically checks oil condition/sludge, VCM-related misfire codes and spark plugs, transmission fluid condition, and the 05/2026 damage repair.
+- Status stays `evaluated`; awaiting Stephen's decision.
+
 ## Log
 
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage: VIN confirmed (2021 Pilot TOURING-7, FWD, 7 seats, ErrorCode 0); listing liveness NOT confirmed this run (dealer page refused the text fetch, live-browser check stalled with no window) — filed $26,495 / 65,284 mi unreconfirmed, held from ready-for-evaluation pending a listing re-check. Report: history/cordele-2021-pilot-touring/vin-check-2026-10-25.md. Status lead → vin-checked.
 - 2026-10-25 — Muse listing re-check (live browser): listing live, VIN/price/mileage confirmed as filed. Advanced to `ready-for-evaluation`.
 - 2026-10-25 — Claude evaluation complete: ON FRONTIER — #1 value pick; co-benchmark with Langdale. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+- 2026-10-25 — Claude read the CARFAX Stephen supplied: repossessed 05/2026, minor damage 05/2026, ~32k-mile service-record gap, ≥1 open recall. Verdict downgraded to conditional standby; Langdale likely dominates unless Cordele prices well below it.
