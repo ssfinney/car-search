@@ -1,6 +1,6 @@
 # 2023 Kia Telluride SX FWD — Gerald Jones Mazda, Augusta GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** Gerald Jones Mazda, Augusta GA
 - **Listing:** https://www.geraldjonesmazda.com/auto/used-2023-kia-telluride-sx/121894667/
 - **Price:** $27,771 (dealer fees unverified)
@@ -55,7 +55,18 @@
 - Guide note: as a second-owner Kia, the powertrain warranty drops to 5 yr / 60k — factor into evaluation.
 - Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: written OTD, captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: LISTING NOT LIVE — recommend elimination as sold.**
+
+- **The listing URL now redirects to the dealer's general search page**, and a Telluride search of Gerald Jones Mazda's inventory on 2026-10-25 shows only a 2020 EX, 2024 EX, and 2025 SX X-Line — VIN 5XYP54GC1PG338129 is not present. The car appears sold since Muse's 2026-10-24 check.
+- For the record, had it been available: 2023 Telluride all-G crash tests, CR "less reliable," $27,569 at 78.6k mi FWD, second-owner powertrain warranty reduced to 5 yr/60k (already exceeded).
+- **Verdict: evaluated — recommend eliminate as no longer available**; Muse may re-verify before moving the file.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $27,569). Status lead → ready-for-evaluation. Report: history/augusta-2023-telluride-sx/vin-check-2026-10-24.md.
+- 2026-10-25 — Claude evaluation complete: LISTING NOT LIVE — recommend elimination as sold. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
