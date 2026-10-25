@@ -1,6 +1,6 @@
 # 2023 Subaru Ascent Limited AWD — CarMax Buford, Buford GA
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** CarMax Buford, Buford GA
 - **Listing:** https://www.carmax.com/car/28889551
 - **Price:** $26,998 (dealer fees unverified)
@@ -48,6 +48,13 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24 (recorded on main 2026-10-25)
+
+- **VIN confirmed, one misquote corrected:** Muse's independent vPIC run (2026-10-24) matches the filed decode — 2023 Ascent Limited, AWD, ErrorCode 0. Recalls API matches the filed 4 campaigns; complaints pattern as filed (45 total). The filed engine quote "2.4L V4" is wrong — the Ascent's engine is a 2.4L turbocharged flat-4 (H4). (Filed line left as-is per append-only convention; this note is the correction.)
+- **Listing/price:** CarMax page LIVE 2026-10-24 at **$26,998 — matches the filed price exactly.** The page shows mileage only as "53k miles," so the filed 52,536 mi is consistent but not exactly verified; the page names the color only as "Black."
+- Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (CarMax page live 2026-10-24 at $26,998 as filed). Status lead → ready-for-evaluation. Report: history/buford-2023-ascent-limited/vin-check-2026-10-24.md.

@@ -18,11 +18,11 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | ALM, Perry | 2022 Ascent Touring | $22,820 | — | lead | [candidates/perry-2022-ascent-touring.md](candidates/perry-2022-ascent-touring.md) |
 | Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-2021-highlander-xle.md](candidates/marietta-2021-highlander-xle.md) |
 | Chatham Parkway Toyota, Savannah | 2021 Highlander XLE AWD | $31,797 incl. fee | 64,079 | lead (over ceiling) | [candidates/savannah-2021-highlander-xle.md](candidates/savannah-2021-highlander-xle.md) |
-| Automax Atlanta, Lilburn | 2021 Highlander XLE AWD | $28,375 ($29,323 dealer total) | 71,289 | lead | [candidates/lilburn-2021-highlander-xle.md](candidates/lilburn-2021-highlander-xle.md) |
-| ALM Hyundai West, Lithia Springs | 2022 Highlander XLE FWD | $27,164 | 93,573 | lead | [candidates/lithia-springs-2022-highlander-xle.md](candidates/lithia-springs-2022-highlander-xle.md) |
-| Ed Voyles Kia, Smyrna | 2022 CX-9 Touring Plus AWD | $24,898 ($25,995 dealer total) | 63,824 | lead | [candidates/smyrna-2022-cx-9-touring-plus.md](candidates/smyrna-2022-cx-9-touring-plus.md) |
-| CarMax, Buford | 2023 Ascent Limited 7-passenger AWD | $26,998 | 52,536 | lead | [candidates/buford-2023-ascent-limited.md](candidates/buford-2023-ascent-limited.md) |
-| Gerald Jones Mazda, Augusta | 2023 Telluride SX FWD | $27,771 ($28,360 w/fee) | 78,633 | lead | [candidates/augusta-2023-telluride-sx.md](candidates/augusta-2023-telluride-sx.md) |
+| Automax Atlanta, Lilburn | 2021 Highlander XLE AWD | $29,323 (dealer page, verified 2026-10-24) | 71,289 | ready-for-evaluation | [candidates/lilburn-2021-highlander-xle.md](candidates/lilburn-2021-highlander-xle.md) |
+| ALM Hyundai West, Lithia Springs | 2022 Highlander XLE FWD | $26,964 (dealer page, verified 2026-10-24) | 93,573 | ready-for-evaluation | [candidates/lithia-springs-2022-highlander-xle.md](candidates/lithia-springs-2022-highlander-xle.md) |
+| Ed Voyles Kia, Smyrna | 2022 CX-9 Touring Plus AWD | $23,097 (dealer fee-inclusive, verified 2026-10-24) | 63,824 | ready-for-evaluation | [candidates/smyrna-2022-cx-9-touring-plus.md](candidates/smyrna-2022-cx-9-touring-plus.md) |
+| CarMax, Buford | 2023 Ascent Limited 7-passenger AWD | $26,998 (verified 2026-10-24) | 52,536 | ready-for-evaluation | [candidates/buford-2023-ascent-limited.md](candidates/buford-2023-ascent-limited.md) |
+| Gerald Jones Mazda, Augusta | 2023 Telluride SX FWD | $27,569 (dealer adjusted price, verified 2026-10-24) | 78,633 | ready-for-evaluation | [candidates/augusta-2023-telluride-sx.md](candidates/augusta-2023-telluride-sx.md) |
 | AutoNation Toyota, Buford | 2020 Highlander XLE FWD | $26,189 | 107,372 | ready-for-evaluation | [candidates/buford-2020-highlander-xle.md](candidates/buford-2020-highlander-xle.md) |
 | Volkswagen of Macon, Macon | 2020 Highlander XLE FWD | $28,969 advertised (fees disclosed) | 60,284 | ready-for-evaluation | [candidates/macon-2020-highlander-xle.md](candidates/macon-2020-highlander-xle.md) |
 | 1st Choice Autos, Smyrna | 2022 Highlander XLE AWD | $25,999 | 100,363 | eliminated (listing gone, 2026-10-25) | [eliminated/smyrna-2022-highlander-xle.md](eliminated/smyrna-2022-highlander-xle.md) |

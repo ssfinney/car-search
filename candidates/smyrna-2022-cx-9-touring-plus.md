@@ -1,6 +1,6 @@
 # 2022 Mazda CX-9 Touring Plus AWD — Ed Voyles Kia, Smyrna GA
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** Ed Voyles Kia, Smyrna GA
 - **Listing:** https://www.edvoyleskia.com/used-Smyrna-2022-%2B-Mazda%2BCX%2B9-Touring%2BPlus-JM3TCBAY8N0608934
 - **Price:** $24,898 (dealer fees unverified)
@@ -48,6 +48,13 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24 (recorded on main 2026-10-25)
+
+- **VIN confirmed, one misquote corrected:** Muse's independent vPIC run (2026-10-24) matches the filed decode — 2022 CX-9 Touring Plus, AWD, 7 seats, ErrorCode 0; 0 recall campaigns confirmed. The filed engine quote "2.5L V4" is wrong — the CX-9's engine is a 2.5L turbocharged inline-4; no V4 exists in this car. (Filed line left as-is per append-only convention; this note is the correction.)
+- **Price correction:** dealer page LIVE 2026-10-24 — the filed $24,898 appears nowhere on it. The dealer shows Internet Price $22,000 and its own fee-inclusive price of **$23,097**; use $23,097. Mileage 63,824 matches the page.
+- Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: captain's-chair photo check (Claude), written OTD confirming the $23,097 figure, history report, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $23,097 fee-inclusive). Status lead → ready-for-evaluation. Report: history/smyrna-2022-cx-9-touring-plus/vin-check-2026-10-24.md.

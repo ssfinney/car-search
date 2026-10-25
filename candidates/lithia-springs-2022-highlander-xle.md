@@ -1,6 +1,6 @@
 # 2022 Toyota Highlander XLE FWD — ALM Hyundai West, Lithia Springs GA
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** ALM Hyundai West, Lithia Springs GA
 - **Listing:** https://www.almcars.com/inventory/2022-toyota-highlander-xle-5TDGZRAH2NS094626
 - **Price:** $27,164 (dealer fees unverified)
@@ -48,6 +48,13 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24 (recorded on main 2026-10-25)
+
+- **VIN confirmed:** Muse's independent vPIC run (2026-10-24) matches the filed decode exactly — 2022 Highlander XLE, 4x2 FWD, 7 seats, 3.5L V6, ErrorCode 0. Recalls API matches the filed 5 campaigns; complaints pattern as filed (264 total).
+- **Price correction:** dealer page LIVE 2026-10-24 at **$26,964** — the filed $27,164 is a stale aggregator figure; use $26,964. The page's FAQ text confirms FWD, 7 passengers, captain's seats, and power liftgate (dealer text; the photo check remains Claude's).
+- Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: written OTD, captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $26,964). Status lead → ready-for-evaluation. Report: history/lithia-springs-2022-highlander-xle/vin-check-2026-10-24.md.

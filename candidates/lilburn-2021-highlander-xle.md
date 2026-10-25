@@ -1,6 +1,6 @@
 # 2021 Toyota Highlander XLE AWD — Automax Atlanta, Lilburn GA
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** Automax Atlanta, Lilburn GA
 - **Listing:** https://www.automaxatlanta.com/pre-owned-cars/detail/2021-Toyota-Highlander/1593882
 - **Price:** $28,375 (dealer fees unverified)
@@ -48,6 +48,13 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24 (recorded on main 2026-10-25)
+
+- **VIN confirmed:** Muse's independent vPIC run (2026-10-24) matches the filed decode exactly — 2021 Highlander XLE, AWD, 3.5L V6, ErrorCode 0. Recalls API matches the filed 4 campaigns; complaints pattern as filed (533 total).
+- **Price correction:** dealer page LIVE 2026-10-24 at **$29,323** — the filed $28,375 is a stale aggregator figure; use $29,323. The dealer page did not display mileage or VIN, so the filed 71,289 mi stands as aggregator-reported, not dealer-verified.
+- Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: written OTD, captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $29,323). Status lead → ready-for-evaluation. Report: history/lilburn-2021-highlander-xle/vin-check-2026-10-24.md.

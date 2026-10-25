@@ -1,6 +1,6 @@
 # 2023 Kia Telluride SX FWD — Gerald Jones Mazda, Augusta GA
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** Gerald Jones Mazda, Augusta GA
 - **Listing:** https://www.geraldjonesmazda.com/auto/used-2023-kia-telluride-sx/121894667/
 - **Price:** $27,771 (dealer fees unverified)
@@ -48,6 +48,14 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24 (recorded on main 2026-10-25)
+
+- **VIN confirmed:** Muse's independent vPIC run (2026-10-24) matches the filed decode exactly — 2023 Telluride SX, 4x2 FWD, 7 seats, 3.8L V6, ErrorCode 0. Recalls API matches the filed 6 campaigns; complaints pattern as filed (209 total).
+- **Price correction:** dealer page LIVE 2026-10-24 at adjusted selling price **$27,569** — the filed $27,771 is a stale aggregator figure; use $27,569. Mileage 78,633 matches the page.
+- Guide note: as a second-owner Kia, the powertrain warranty drops to 5 yr / 60k — factor into evaluation.
+- Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: written OTD, captain's-chair photo check (Claude), history report, VIN-specific recall completion, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $27,569). Status lead → ready-for-evaluation. Report: history/augusta-2023-telluride-sx/vin-check-2026-10-24.md.
