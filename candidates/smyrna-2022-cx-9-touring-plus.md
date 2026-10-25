@@ -1,6 +1,6 @@
 # 2022 Mazda CX-9 Touring Plus AWD — Ed Voyles Kia, Smyrna GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** Ed Voyles Kia, Smyrna GA
 - **Listing:** https://www.edvoyleskia.com/used-Smyrna-2022-%2B-Mazda%2BCX%2B9-Touring%2BPlus-JM3TCBAY8N0608934
 - **Price:** $24,898 (dealer fees unverified)
@@ -54,7 +54,21 @@
 - **Price correction:** dealer page LIVE 2026-10-24 — the filed $24,898 appears nowhere on it. The dealer shows Internet Price $22,000 and its own fee-inclusive price of **$23,097**; use $23,097. Mileage 63,824 matches the page.
 - Status advanced `lead` → `ready-for-evaluation` on the strength of the 2026-10-24 checks (recorded on main after the branch merge). Remaining gates: captain's-chair photo check (Claude), written OTD confirming the $23,097 figure, history report, independent PPI.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: ON FRONTIER — cheapest newer car; dominates the Duluth CX-9.**
+
+- **Captain's chairs: PHOTO-CONFIRMED by Claude** (photos 14 and 17: two individual second-row seats with an open aisle). Deep Crystal Blue confirmed.
+- **Price:** dealer page $22,000 + $898 + $199 = **$23,097** before tax (~$118/mo — lowest of any newer car on the board). 63,824 mi.
+- **CARFAX read by Claude** (summary in `history/smyrna-2022-cx-9-touring-plus/`): no accidents, 1 owner (Columbus GA), no recalls — but only 7 service records with **~28k- and ~20k-mile oil gaps on a turbo engine**. Dealer replaced battery, rear brakes, filters.
+- **Safety:** small overlap G/G, updated side G, **updated frontal P**, headlights G. **Reliability:** CR 2022 CX-9 "more reliable." Smallest third row on the board.
+- **Versus Duluth CX-9 Signature:** ~$2k+ cheaper, no accidents (Duluth has two), open-aisle second row; Duluth's only edge is ~9k fewer miles and Signature trim → Duluth likely dominated.
+- **Verdict: evaluated — keep as the newer low-cost alternative.** The trade is clear: lowest payment and good reliability evidence for the weakest rear-occupant frontal rating. Gates: written OTD, PPI focused on turbo/oil condition given the service gaps.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $23,097 fee-inclusive). Status lead → ready-for-evaluation. Report: history/smyrna-2022-cx-9-touring-plus/vin-check-2026-10-24.md.
+- 2026-10-25 — Claude evaluation complete: ON FRONTIER — cheapest newer car; dominates the Duluth CX-9. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
