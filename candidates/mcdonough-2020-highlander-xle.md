@@ -1,6 +1,6 @@
 # 2020 TOYOTA Highlander XLE 4x2 — Jim Ellis Toyota of McDonough, McDonough GA
 
-- **Status:** lead
+- **Status:** eliminated (listing gone — sold/unavailable, verified by Muse 2026-10-24)
 - **Dealer/location:** Jim Ellis Toyota of McDonough, McDonough GA
 - **Listing:** https://www.jimellis.com/used/Toyota/2020-Toyota-Highlander-3f31da93ac18541152113ed6e5b19fc1.htm
 - **Price:** $27,825 (dealer fees unverified)
@@ -48,6 +48,13 @@
 - Claude captain's-chair image confirmation at evaluation.
 - Independent PPI before any deposit (Canton rule).
 
+## Muse verification — 2026-10-24
+
+- VIN check complete; full report at `history/mcdonough-2020-highlander-xle/vin-check-2026-10-24.md`. vPIC decode clean (ErrorText 0, check digit correct) and matches the filed year/trim/drivetrain/engine exactly. The filed recall list (4 campaigns) and complaints pattern (321 total) match the NHTSA APIs exactly.
+- Listing check 2026-10-24: **GONE.** The filed URL redirects to Jim Ellis's general used inventory with a missing-vehicle redirect flag, and an inventory search for VIN 5TDGZRAH2LS503186 returns "0 Vehicles Matching." Treated as sold/unavailable; the filed price and mileage can no longer be confirmed.
+- Disposition: status set to `eliminated`. The physical move of this file to `eliminated/` still needs to happen — the snapshot push tooling can add/update files but cannot delete the `candidates/` copy, so the move should be completed with the branch merge or by the CLI tooling.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
+- 2026-10-24 — Muse: VIN check complete (decode clean); listing verified gone (sold/unavailable). Status → `eliminated`.
