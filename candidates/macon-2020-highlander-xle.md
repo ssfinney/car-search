@@ -1,6 +1,6 @@
 # 2020 TOYOTA Highlander XLE 4x2 — Volkswagen of Macon, Macon GA
 
-- **Status:** ready-for-evaluation (affordability flag stands: $28,969 incl. disclosed dealer fees but excl. tax/title implies OTD likely over the ~$30k ceiling — written OTD is the decisive gate)
+- **Status:** evaluated
 - **Dealer/location:** Volkswagen of Macon, Macon GA
 - **Listing:** https://www.vwofmacon.com/used/Toyota/2020-Toyota-Highlander-623a7666ac182113dd76063d2389a9c0.htm
 - **Price:** $28,969 vehicle price (dealer fees and government charges unverified; implies ~$31.5k+ OTD before negotiation)
@@ -55,7 +55,18 @@
 - 2020-specific safety verified for evaluation (detail in history report): IIHS small overlap G/G, updated side G, front crash prevention Superior, NHTSA 5-star overall — but **XLE headlights are rated P (Poor) for 2020 models only** (2021–22 XLE rate A), and the updated frontal test is not rated for 2020. Reliability: no 2020 row in the guide; secondary Consumer Reports roundups report 4/5 — indicative only, not read from CR directly.
 - Still open: adverse history (no CARFAX pulled — owners/accidents/title unverified), VIN-specific recall completion status, captain's-chair photo confirmation (Claude, at evaluation), written OTD, independent PPI.
 
+## Claude evaluation — 2026-10-25
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: $17,000 down, 60 mo at 6% (× 0.01933280153), on the dealer's pre-tax total; Georgia TAVT/title not estimated. Stephen decides next.
+
+**Frontier verdict: FAILS REQUIREMENT — second-row bench; recommend elimination.**
+
+- **Second row is a BENCH (8-passenger), photo-confirmed by Claude** (dealer photos 38, 40, 48: continuous second-row bench with a fold-down center armrest/cupholder). Captain's chairs are a firm requirement.
+- Also: $28,969 before tax (~$232/mo) at 60,284 mi, 2020 XLE Poor headlights.
+- **Verdict: evaluated — recommend Stephen eliminate** (fails the captain's-chair requirement).
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-24 — Muse: VIN check complete; listing live-verified at the filed price with dealer fees disclosed on the page. Advanced `lead` → `vin-checked` → `ready-for-evaluation`.
+- 2026-10-25 — Claude evaluation complete: FAILS REQUIREMENT — second-row bench; recommend elimination. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
