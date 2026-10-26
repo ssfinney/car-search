@@ -49,3 +49,7 @@ Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `r
 - 2026-10-25 — Filed as `lead` by Claude from a listing link Stephen supplied; preliminary evaluation logged above at Stephen's direction. Awaiting Muse's VIN/recall/history stage.
 - 2026-10-25 — Muse stage complete: VIN confirmed against the filed claim, listing live at the filed price and mileage, VIN-check report saved under `history/wesley-chapel-2023-pilot-exl/`. Advanced to `ready-for-evaluation`.
 - 2026-10-25 — Claude evaluation complete: ON FRONTIER — #1 recommended 2023 Pilot; dominates Oxmoor. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+
+## Muse verification — 2026-10-25 (evening)
+- **Listing re-verified live tonight:** dealer page shows this VIN/stock PB002358, price **$28,258**, mileage **85,371**, Radiant Red / black, FWD — all unchanged.
+- **Gates unchanged:** written delivered OTD with the $439 FL tag fee removed, VIN-specific recall completion (23V735000 first), independent PPI. CARFAX already read clean by Claude (see final evaluation above).
