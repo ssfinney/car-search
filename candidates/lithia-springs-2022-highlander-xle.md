@@ -72,3 +72,9 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $26,964). Status lead → ready-for-evaluation. Report: history/lithia-springs-2022-highlander-xle/vin-check-2026-10-24.md.
 - 2026-10-25 — Claude evaluation complete: ON FRONTIER — cheaper Highlander, conditional on seating photo and rental history. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+
+## Muse verification — 2026-10-25 (evening, at Stephen's request)
+- **Listing re-verified live tonight:** dealer page loads for this VIN; structured data shows **price $26,964, availability InStock** — unchanged from the evaluated figure ($25,720 + $995 doc + $249 filing).
+- **Captain's chairs STILL UNVERIFIED:** the dealer FAQ text on the page says "Captain seats," which is text, not photo proof — Claude's evaluation flag stands. The listing gallery remains exterior-only, so this needs an in-person check or dealer interior photos.
+- **History (Claude's CARFAX read, above):** ex-rental first ~46.6k mi (NY/NJ), then one Georgia owner with regular Toyota-dealer service; Toyota Gold Certified in 2024; no accidents. **Open recall 26V128000.**
+- **Gates unchanged:** second-row photo/in-person confirmation, 26V128000 completion, written OTD (est. ~$28.8k with GA TAVT — under ceiling), PPI with rental-wear focus (brakes, suspension, interior).
