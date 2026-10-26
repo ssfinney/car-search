@@ -72,3 +72,9 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-24 — Muse: VIN check complete; listing live-verified at the filed price. Advanced `lead` → `vin-checked` → `ready-for-evaluation`.
 - 2026-10-25 — Claude evaluation complete: LIKELY DOMINATED by ALM 2022 Highlander — standby. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+
+## Muse verification — 2026-10-25 (evening follow-up)
+- **Direct-URL caveat resolved:** the original cars-for-sale URL rendered a generic AutoNation inventory page on re-check, but AutoNation's inventory search by VIN returned exactly 1 result and opened the specific vehicle page: https://www.autonation.com/cars/5tdgzrah4ls502413/toyota-highlander-2020
+- **Page confirms:** VIN shown on the page; 2020 Toyota Highlander XLE FWD, Certified, Celestial Silver Metallic, AutoNation Toyota Mall of Georgia; **In Stock**; **107,378 mi**; AutoNation 1Price **$26,189** = $24,991 vehicle price + $999 dealer service fee + $199 electronic filing fee. No stock number was shown in the sections checked.
+- **Verdict unchanged:** evaluated standby / likely dominated (2020-only Poor headlights; 107k-mile widening band still needs documented maintenance plus a meaningful discount). No dealer contact, form submission, or login was used.
+
