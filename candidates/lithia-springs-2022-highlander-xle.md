@@ -78,3 +78,8 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - **Captain's chairs STILL UNVERIFIED:** the dealer FAQ text on the page says "Captain seats," which is text, not photo proof — Claude's evaluation flag stands. The listing gallery remains exterior-only, so this needs an in-person check or dealer interior photos.
 - **History (Claude's CARFAX read, above):** ex-rental first ~46.6k mi (NY/NJ), then one Georgia owner with regular Toyota-dealer service; Toyota Gold Certified in 2024; no accidents. **Open recall 26V128000.**
 - **Gates unchanged:** second-row photo/in-person confirmation, 26V128000 completion, written OTD (est. ~$28.8k with GA TAVT — under ceiling), PPI with rental-wear focus (brakes, suspension, interior).
+
+## Claude frontier update — 2026-10-26
+
+- **Now likely dominated by Lake City 2021 Highlander XLE** (`candidates/lake-city-2021-highlander-xle.md`, evaluated today): $24,305 vs $26,964 before tax (**−$2,659**), ~6.3k fewer miles, captain's chairs photo-confirmed (this car's are still unverified), no rental use. This car's edges are one model year (same structure, same A headlights, same CR rating) and proximity. Those don't offset ~$2k+ after a trip and an out-of-town PPI.
+- Holds only if Lake City clears its gates (on-lot confirmation, written OTD with $0 FL sales tax/DR-123). If Lake City falls through, this car's verdict above (keep, conditional) stands again. Status stays `evaluated`; Stephen decides.
