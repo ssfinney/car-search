@@ -51,3 +51,4 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - 2026-10-26 — Stephen supplied the listing + CARFAX. Muse stage complete same day: vPIC clean, listing live at $31,396 pre-tax, chairs photo-confirmed, CARFAX read. Advanced lead → ready-for-evaluation.
 - 2026-10-26 — Claude evaluation complete: NOT DOMINATED, but fails the ceiling as priced — park unless Butler moves ~$3.4k. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
 - 2026-10-26 — Claude: corrected own evaluation per PR #9 review — 24V452000 does not apply to Platinum (Part 573 report), updated-frontal M vs 2021 not-rated is no longer called parity, and "most expensive" narrowed to evaluated Highlanders (Savannah lead is higher). Verdict unchanged.
+- 2026-10-26 — Stephen confirmed to Claude that this car has second-row captain's chairs (stated in chat; adds to Muse's photo confirmation). The in-person seat check is no longer an open gate.
