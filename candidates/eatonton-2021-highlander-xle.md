@@ -28,3 +28,9 @@
 ## Log
 
 - 2026-10-24 — Filed by Muse from Facebook Marketplace sweep.
+
+## Muse Marketplace re-check — 2026-10-25/26
+- The broad Marketplace search located this listing (Eatonton GA, Georgia Autogroup): **$27,988 / 79,504 mi, white exterior**.
+- **The listing photos show a second-row BENCH**, and no power-liftgate mention was found. Bench + white fail two firm requirements (captain's chairs, non-white).
+- Recommendation: eliminate (Stephen decides). The outstanding VIN request is moot unless Stephen wants it pursued anyway.
+- NOTE: appended to the local working copy during a GitHub outage; push to main pending.
