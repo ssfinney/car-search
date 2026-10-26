@@ -70,3 +70,7 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-24 — Muse: VIN check complete; listing live-verified at the filed price with dealer fees disclosed on the page. Advanced `lead` → `vin-checked` → `ready-for-evaluation`.
 - 2026-10-25 — Claude evaluation complete: FAILS REQUIREMENT — second-row bench; recommend elimination. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+
+## Muse verification — 2026-10-25 (evening)
+- **Listing re-verified live tonight:** the vehicle page loads at Volkswagen of Macon showing this VIN (stock 2P031140), **"On The Lot,"** price **$28,969** with the dealer's own breakdown on the page ($27,831 list + $988 admin + $150 filing), odometer **60,284 mi** — all matching the filed figures.
+- Liveness does not change the verdict: the second row is a photo-confirmed **bench** (Claude, above), which fails the firm captain's-chair requirement. Elimination remains Stephen's decision.
