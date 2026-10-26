@@ -77,9 +77,20 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - **AutoCheck report:** the listing's "View Report" link (automaxatlanta.com/autocheck/get/1593882) would not render — "the vehicle history report cannot be displayed at this time. Please ask the dealer for a copy." Reloaded once, same result. Only verified AutoCheck datum: score 92 (similar vehicles 88–93) from the listing widget.
 - **Verdict: no evidence this car is a buyback; title brand NOT verified either way.** The document that settles it — the full AutoCheck (or CARFAX) report — has to come from the dealer. Gate stays open until that report is in hand; treat as a routine first ask on this car, not a red flag found.
 
+## Muse CARFAX read — 2026-10-25 (report supplied by Stephen)
+
+Full summary: `history/lilburn-2021-highlander-xle/carfax-summary-2026-10-25.md` (source PDF held by Muse outside the repo). Report run 10/25/2026 by Automax Atlanta.
+
+- **BUYBACK GATE CLOSED — not a buyback.** Title History: Damage Brands (Salvage | Junk | Rebuilt | Fire | Flood | Hail | Lemon) "No Problem" for both owners, CARFAX-guaranteed; Odometer Brands also "No Problem." No DMV-reported brand of any kind.
+- **History otherwise strong:** 2 owners (personal lease 2021–24, MD/NY; personal 2024–26, Salisbury MD); **no accidents or damage reported**; no total loss/structural/airbag events; odometer consistent to 71,289. **18 service records, dealer-maintained throughout** (Steet Toyota NY, then Pohanka Toyota MD incl. full brake/tire reconditioning at Owner 2's purchase and oil on schedule to 04/2026 at 67,745 mi).
+- **New finding — repossessed:** Owner 2's car was repossessed 08/13/2026, then wholesaled (financial company → Autos Direct, Fredericksburg VA, 09/15/2026) to Automax (offered 09/30/2026). Repossession does not brand the title. Noted for negotiation and PPI context; service currency through 04/2026 limits the deferred-care concern.
+- **Open recall on this VIN: 26V128000 (26TA06)** — second-row seat-back recliner may not lock; remedy available, not shown completed. The only open recall on the report. Confirm completion (free at Toyota) — it affects the second row directly.
+- Remaining gates: written OTD (ceiling pressure: ~$31k with TAVT per Claude unless the $699 fee/price moves), 26V128 completion, independent PPI.
+
 ## Log
 
 - 2026-10-24 — Filed as `lead` by CLI search tooling.
 - 2026-10-25 — Muse: verification recorded on main after the branch merge (checks run 2026-10-24): VIN confirmed, listing live at corrected/confirmed price (dealer page live 2026-10-24 at $29,323). Status lead → ready-for-evaluation. Report: history/lilburn-2021-highlander-xle/vin-check-2026-10-24.md.
 - 2026-10-25 — Claude evaluation complete: ON FRONTIER — top-tier contender; may displace Wesley Chapel pending history. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
 - 2026-10-25 — Muse buyback check: listing carries no buyback/lemon branding (nav link only); dealer's buyback page lists no inventory; linked AutoCheck report would not display on the dealer site, so the title brand itself remains unverified — full history report from the dealer is the closing document. No buyback evidence found.
+- 2026-10-25 — Muse read the CARFAX Stephen supplied: title brands all clean and CARFAX-guaranteed — NOT a buyback (gate closed). 2 owners, no accidents/damage reported, 18 dealer service records. New findings: repossessed from Owner 2 on 08/13/2026 and wholesaled to Automax; open recall 26V128000 (seat-back recliner) not shown completed. Summary + PDF in history/lilburn-2021-highlander-xle/.
