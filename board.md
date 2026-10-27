@@ -16,7 +16,7 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | 1st Choice Autos, Smyrna | 2021 Highlander Limited FWD | $26,999 | 77,502 | eliminated (bench — photo-verified, 2026-10-26) | [eliminated/first-choice-2021-highlander-limited.md](eliminated/first-choice-2021-highlander-limited.md) |
 | Autosphere, Buford | 2020 Telluride SX AWD | $19,966 | 86,209 | lead | [candidates/buford-2020-telluride-sx.md](candidates/buford-2020-telluride-sx.md) |
 | ALM, Perry | 2022 Ascent Touring | $22,820 | — | lead | [candidates/perry-2022-ascent-touring.md](candidates/perry-2022-ascent-touring.md) |
-| Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-2021-highlander-xle.md](candidates/marietta-2021-highlander-xle.md) |
+| Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-gaw-2021-highlander-xle.md](candidates/marietta-gaw-2021-highlander-xle.md) |
 | Chatham Parkway Toyota, Savannah | 2021 Highlander XLE AWD | $31,797 incl. fee | 64,079 | lead (over ceiling) | [candidates/savannah-2021-highlander-xle.md](candidates/savannah-2021-highlander-xle.md) |
 | Automax Atlanta, Lilburn | 2021 Highlander XLE AWD | $29,323 (dealer page, verified 2026-10-24) | 71,289 | evaluated | [candidates/lilburn-2021-highlander-xle.md](candidates/lilburn-2021-highlander-xle.md) |
 | ALM Hyundai West, Lithia Springs | 2022 Highlander XLE FWD | $26,964 (dealer page, verified 2026-10-24) | 93,573 | evaluated | [candidates/lithia-springs-2022-highlander-xle.md](candidates/lithia-springs-2022-highlander-xle.md) |
