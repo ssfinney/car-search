@@ -14,9 +14,10 @@ Filed by: Muse, 2026-10-26 (from the Highlander comp sweep; Stephen asked for th
 
 ## Money
 
-- Ask: $27,794, stated on both pages as INCLUDING dealer fees (only tax/tag/title excluded). OTD estimate ~$29,750–29,800 with GA TAVT/title (estimate only; written figure governs) — about $200 over the Carvana anchor ($29,552 OTD) with 12,751 fewer miles, and ~$1,600 under Lilburn's estimated OTD with 3,855 fewer miles.
+- Ask: $27,794, dealer fees INCLUDED per both sales pages — Stephen confirmed 2026-10-26 (night) that the dealer site is correct and CarEdge's $799-on-top doc-fee estimate is wrong. OTD estimate ~$29,750–29,800 with GA TAVT/title (estimate only; the written dealer figure is the final proof) — about $200 over the Carvana anchor ($29,552 OTD, firm, free shipping) with 12,751 fewer miles, and ~$1,600 under Lilburn's estimated OTD with 3,855 fewer miles.
 - Payment at ask OTD (est.): ~$247/mo ($17k down, 60 mo, 6%) — inside the band.
 - Negotiation target: $28,500–29,000 written OTD (~$222–232/mo) — an ~$800–1,300 cut justified by the two 2022 minor-damage reports (one with a tow) and the Carvana anchor's 7-day return window.
+- Price history (CarEdge, via Stephen): listed ~$30.5k in mid-September (under the prior seller), cut to ~$27.4–27.8k by mid-October, flat at $27,794 for roughly the last two weeks. CarEdge shows 15 days on lot; CARFAX shows JZ acquired it at auction 09/29/2026 — the day count is inconsistent, the price trajectory is the usable signal.
 
 ## History summary (detail: history/marietta-2021-highlander-xle/vin-check-2026-10-26.md)
 
@@ -51,6 +52,8 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 
 ## Log
 
+- 2026-10-26 night (Stephen, via Muse): CarEdge is wrong — the doc fee is inside the $27,794 per the dealer site; fee-inclusive figures restored. CarEdge's $30,577 estimate is superseded and should not be used.
+- 2026-10-26 night (Muse): Correction from Stephen's CarEdge screenshot — $799 doc fee verified on top of the ask; estimated OTD revised to ~$30,577 (CarEdge figure). "Fees included" wording on both sales pages conflicts; the written OTD request must pin the doc fee down.
 - 2026-10-26 (Muse): Surfaced unverified in the Highlander comp sweep (~$27,794 / ~67k mi); Stephen requested the check. vPIC decode clean (ErrorCode 0); chairs photo-confirmed; CARFAX read — 2 owners, 26 service records, two 2022 minor-damage reports, no repo, no open recalls reported. Advanced to ready-for-evaluation.
 - 2026-10-27 (Claude): Evaluation complete — ON FRONTIER; co-lead with Lake City, conditional on a PPI that clears the 2022 repairs. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
 - 2026-10-27 (Claude): Corrected own evaluation per PR #10 review — the Lithia Springs 2022 comparison is a trade until the PPI clears the 2022 repairs, not unconditional dominance. Verdict unchanged.
