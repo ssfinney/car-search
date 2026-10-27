@@ -1,6 +1,6 @@
 # 2021 Toyota Highlander XLE — private seller, Inman SC (Facebook Marketplace)
 
-- **Status:** lead
+- **Status:** eliminated — total loss (reported by Stephen 2026-10-27) despite the clean-title claim. Do not re-review.
 - **Source:** Facebook Marketplace item 1579396346975199, filed by Muse 2026-10-26 from the 2026-10-25 broad Marketplace search. Private seller: Vitaliy Kichuk, Inman SC.
 - **Price:** $25,800 (reduced from $27,500)
 - **Mileage:** 66,000
@@ -15,3 +15,4 @@
 
 ## Log
 - 2026-10-26 — Muse (Marketplace search): filed at `lead`. Chairs photo-confirmed; VIN is gate #1. NOTE: written to the local working copy during a GitHub outage; push to main pending — verify whether a partial push landed before re-pushing.
+- 2026-10-27 — Muse: Stephen reported the car was a total loss even with a clean title (his check, 2026-10-27). ELIMINATED. VIN and liftgate gates moot. Pattern note: clean-title claim + undisclosed total loss — exactly what the VIN/history stage exists to catch.
