@@ -1,6 +1,6 @@
 # 2018 Toyota Highlander XLE — Private Seller, Ellenwood
 
-- **Status:** lead
+- **Status:** eliminated — sold (reported by Stephen 2026-10-27)
 - **Source:** Facebook Marketplace (Muse sweep, 2026-10-24)
 - **Seller/location:** Private seller, Ellenwood GA (63 mi from Macon)
 - **Listing:** https://www.facebook.com/marketplace/item/1102362732609926
@@ -30,3 +30,4 @@
 
 - 2026-10-24 — Filed by Muse from Facebook Marketplace sweep.
 - 2026-10-24 — Stephen flagged this listing directly as a budget pick (shared the Facebook link). Muse pulled full listing details: exterior color is Grey (previously not stated), interior Black, listing title status CLEAN, standard seating capacity listed as 7 — consistent with the captain's-chair configuration on a 2018 XLE (8-passenger bench was standard), but NOT photo confirmation; Claude's image check at evaluation still decides. Goodyear all-season tires with tread remaining per seller. Listed 2026-10-20. Status remains lead; obtaining the VIN is still the next gate.
+- 2026-10-27 — Stephen reported the car sold. Moved to `eliminated/` by Claude at Stephen's word; no VIN, history, or seating check was ever completed.

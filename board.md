@@ -16,7 +16,7 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | 1st Choice Autos, Smyrna | 2021 Highlander Limited FWD | $26,999 | 77,502 | eliminated (bench — photo-verified, 2026-10-26) | [eliminated/first-choice-2021-highlander-limited.md](eliminated/first-choice-2021-highlander-limited.md) |
 | Autosphere, Buford | 2020 Telluride SX AWD | $19,966 | 86,209 | lead | [candidates/buford-2020-telluride-sx.md](candidates/buford-2020-telluride-sx.md) |
 | ALM, Perry | 2022 Ascent Touring | $22,820 | — | lead | [candidates/perry-2022-ascent-touring.md](candidates/perry-2022-ascent-touring.md) |
-| Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-2021-highlander-xle.md](candidates/marietta-2021-highlander-xle.md) |
+| Georgia Auto World, Marietta | 2021 Highlander XLE AWD | $29,990 | 64,879 | lead (over ceiling) | [candidates/marietta-gaw-2021-highlander-xle.md](candidates/marietta-gaw-2021-highlander-xle.md) |
 | Chatham Parkway Toyota, Savannah | 2021 Highlander XLE AWD | $31,797 incl. fee | 64,079 | lead (over ceiling) | [candidates/savannah-2021-highlander-xle.md](candidates/savannah-2021-highlander-xle.md) |
 | Automax Atlanta, Lilburn | 2021 Highlander XLE AWD | $29,323 (dealer page, verified 2026-10-24) | 71,289 | evaluated | [candidates/lilburn-2021-highlander-xle.md](candidates/lilburn-2021-highlander-xle.md) |
 | ALM Hyundai West, Lithia Springs | 2022 Highlander XLE FWD | $26,964 (dealer page, verified 2026-10-24) | 93,573 | evaluated | [candidates/lithia-springs-2022-highlander-xle.md](candidates/lithia-springs-2022-highlander-xle.md) |
@@ -29,6 +29,8 @@ Live candidates, seeded 2026-10-24. Status and prices as last verified; see each
 | ALM Hyundai West, Lithia Springs | 2021 Highlander Platinum AWD | $27,964 incl. fees (before tax) | 97,962 | evaluated — standby behind Lake City (2026-10-26) | [candidates/lithia-springs-2021-highlander-platinum.md](candidates/lithia-springs-2021-highlander-platinum.md) |
 | Butler Toyota, Macon | 2022 Highlander Platinum FWD | $31,396 incl. fees (before tax) | 95,093 | evaluated — over ceiling, park unless price moves (2026-10-26) | [candidates/macon-2022-highlander-platinum.md](candidates/macon-2022-highlander-platinum.md) |
 | Sutton Acura, Macon | 2023 Highlander XLE FWD (2.4T) | $32,485 incl. doc fee (before tax) | 58,705 | evaluated — over ceiling, park unless price + service records (2026-10-26) | [candidates/macon-2023-highlander-xle.md](candidates/macon-2023-highlander-xle.md) |
+| JZ Auto Sales, Marietta | 2021 Highlander XLE FWD | $27,794 incl. fees (before tax) | 67,434 | evaluated — on frontier, co-lead with Lake City pending PPI (2026-10-27) | [candidates/marietta-2021-highlander-xle.md](candidates/marietta-2021-highlander-xle.md) |
+| Kia South Atlanta, Morrow | 2021 Highlander XLE FWD | $27,897 incl. doc fee (before tax) | 82,842 | evaluated — likely dominated by Lake City, standby (2026-10-27) | [candidates/morrow-2021-highlander-xle.md](candidates/morrow-2021-highlander-xle.md) |
 | 1st Choice Autos, Smyrna | 2022 Highlander XLE AWD | $25,999 | 100,363 | eliminated (listing gone, 2026-10-25) | [eliminated/smyrna-2022-highlander-xle.md](eliminated/smyrna-2022-highlander-xle.md) |
 | EchoPark Automotive, Duluth | 2018 Highlander Limited Platinum FWD | $23,197 ($23,696 w/ fee) | 74,326 | eliminated (listing gone, 2026-10-25) | [eliminated/duluth-2018-highlander-ltdltd-platinum.md](eliminated/duluth-2018-highlander-ltdltd-platinum.md) |
 | UI Autos, Lawrenceville | 2023 Pilot EX-L 7-passenger FWD | $26,920 (aggregator figure; dealer listing verified gone 2026-10-24) | 103,581 | eliminated (listing gone) | [eliminated/lawrenceville-2023-pilot-ex-l.md](eliminated/lawrenceville-2023-pilot-ex-l.md) |
@@ -53,7 +55,7 @@ Facebook Marketplace sweep against the guide's targets. All prices are advertise
 | Private seller, Griffin | 2021 Highlander XLE | $25,000 | 103,290 | lead | [candidates/griffin-2021-highlander-xle.md](candidates/griffin-2021-highlander-xle.md) |
 | Dealer salesperson post, Woodstock | 2021 Highlander XLE FWD | $28,995 | 101,870 | lead | [candidates/woodstock-2021-highlander-xle.md](candidates/woodstock-2021-highlander-xle.md) |
 | Private seller, Heflin AL | 2018 Highlander XLE | $24,500 | 99,800 | lead | [candidates/heflin-2018-highlander-xle.md](candidates/heflin-2018-highlander-xle.md) |
-| Private seller, Ellenwood | 2018 Highlander XLE | $18,000 | 84,685 | lead | [candidates/ellenwood-2018-highlander-xle.md](candidates/ellenwood-2018-highlander-xle.md) |
+| Private seller, Ellenwood | 2018 Highlander XLE | $18,000 | 84,685 | eliminated (sold, 2026-10-27) | [eliminated/ellenwood-2018-highlander-xle.md](eliminated/ellenwood-2018-highlander-xle.md) |
 | Dealer salesperson post, Columbus | 2023 Ascent Limited AWD | $27,553 | 75,194 | lead | [candidates/columbus-2023-ascent-limited.md](candidates/columbus-2023-ascent-limited.md) |
 | Private seller, Canton | 2023 Telluride SX | $30,820 | 43,000 | lead | [candidates/canton-2023-telluride-sx.md](candidates/canton-2023-telluride-sx.md) |
 | Dealer salesperson post, Duluth | 2022 CX-9 Signature AWD | $25,149 | 54,955 | vin-checked | [candidates/duluth-2022-cx-9-signature.md](candidates/duluth-2022-cx-9-signature.md) |
