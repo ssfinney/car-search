@@ -14,9 +14,9 @@ Filed by: Muse, 2026-10-26 (from the Highlander comp sweep; Stephen asked for th
 
 ## Money
 
-- Ask: $27,794. CORRECTED 2026-10-26 (night, Stephen-supplied CarEdge screenshot): despite both sales pages claiming dealer fees are included, CarEdge lists a VERIFIED $799 doc fee on top, putting estimated OTD at $30,577 ($27,794 + $799 doc + $1,946 GA tax at 7% + $18 title + $20 registration). Muse's earlier ~$29,750–29,800 estimate is superseded. At ask the car is ~$1,025 OVER the Carvana anchor ($29,552 OTD, firm) — the "dead heat" framing is retired until a written OTD proves the doc fee is inside the $27,794.
-- Payment at CarEdge-estimated OTD: ~$263/mo ($17k down, 60 mo, 6%) — above the $200–250 band.
-- Negotiation target: $28,500–29,000 written OTD (~$222–232/mo) — requires an ~$900–1,350 cut to the vehicle price if the $799 doc fee stands, justified by the two 2022 minor-damage reports (one with a tow) and the Carvana anchor's 7-day return window.
+- Ask: $27,794, dealer fees INCLUDED per both sales pages — Stephen confirmed 2026-10-26 (night) that the dealer site is correct and CarEdge's $799-on-top doc-fee estimate is wrong. OTD estimate ~$29,750–29,800 with GA TAVT/title (estimate only; the written dealer figure is the final proof) — about $200 over the Carvana anchor ($29,552 OTD, firm, free shipping) with 12,751 fewer miles, and ~$1,600 under Lilburn's estimated OTD with 3,855 fewer miles.
+- Payment at ask OTD (est.): ~$247/mo ($17k down, 60 mo, 6%) — inside the band.
+- Negotiation target: $28,500–29,000 written OTD (~$222–232/mo) — an ~$800–1,300 cut justified by the two 2022 minor-damage reports (one with a tow) and the Carvana anchor's 7-day return window.
 - Price history (CarEdge, via Stephen): listed ~$30.5k in mid-September (under the prior seller), cut to ~$27.4–27.8k by mid-October, flat at $27,794 for roughly the last two weeks. CarEdge shows 15 days on lot; CARFAX shows JZ acquired it at auction 09/29/2026 — the day count is inconsistent, the price trajectory is the usable signal.
 
 ## History summary (detail: history/marietta-2021-highlander-xle/vin-check-2026-10-26.md)
@@ -32,5 +32,6 @@ CARFAX (free via dealer, 2026-10-26): 2 owners — corporate fleet ~8 months to 
 
 ## Log
 
+- 2026-10-26 night (Stephen, via Muse): CarEdge is wrong — the doc fee is inside the $27,794 per the dealer site; fee-inclusive figures restored. CarEdge's $30,577 estimate is superseded and should not be used.
 - 2026-10-26 night (Muse): Correction from Stephen's CarEdge screenshot — $799 doc fee verified on top of the ask; estimated OTD revised to ~$30,577 (CarEdge figure). "Fees included" wording on both sales pages conflicts; the written OTD request must pin the doc fee down.
 - 2026-10-26 (Muse): Surfaced unverified in the Highlander comp sweep (~$27,794 / ~67k mi); Stephen requested the check. vPIC decode clean (ErrorCode 0); chairs photo-confirmed; CARFAX read — 2 owners, 26 service records, two 2022 minor-damage reports, no repo, no open recalls reported. Advanced to ready-for-evaluation.
