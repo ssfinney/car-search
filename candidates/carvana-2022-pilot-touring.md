@@ -11,3 +11,5 @@ Filed by: Muse, 2026-10-27 (Stephen-supplied Carvana offer + CARFAX PDF; Muse re
 
 ## Log
 - 2026-10-27 (Muse): CARFAX read; best year/miles/ATF paper of the three, worst price. Filed ready-for-evaluation, parked on price. Stephen to notify Claude.
+
+- 2026-10-28 — Price update (Stephen-reported): Carvana OTD now **$31,668** (filed 2026-10-27 at $31,688; a $20 move, verdict unchanged — parked over ceiling, net ~$135/mo). Fresh CARFAX run dated 10/28/26 re-read by Muse the same morning: facts identical to the 2026-10-27 read — 2 owners (TX lease → FL personal), Honda CPO sale Jul 2022, no accidents/damage, no open recalls, transmission serviced 12/22/2025 at 53,764 mi, and the Dec 2025 → Sep 2026 documentation gap (~21,861 mi) stands.
