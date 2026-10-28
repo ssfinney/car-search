@@ -1,0 +1,11 @@
+# CARFAX read — Autobarn (Auto Barn LLC, Newnan GA) 2019 Honda Pilot Touring-7 AWD
+
+Read by Muse 2026-10-27 from the CARFAX PDF Stephen supplied (report run 10/27/26 8:28 PM CDT, provided free by Auto Barn LLC, 124 Bledsoe Rd, Newnan GA 30265, (770) 251-7620). VIN 5FNYF6H62KB026827. 99,533 mi on CARFAX (CCP said 99,526 — trivial difference).
+
+- Owners: 1, personal. Purchased Dec 2018, Fairfax Station/Chantilly VA, moved to Stuart FL Sep 2019. 7 yrs 5 mo, ~13,325 mi/yr. "Last owned in Florida."
+- Accidents/damage: NONE reported. Total loss none; structural none; airbags none. Title brands guaranteed No Problem. Odometer: no issues.
+- Service: 19 records — strong. Honda of Chantilly, then Johnson Honda of Stuart for most of the car's life, plus Take 5 (Stuart) later. Oil at 6,539 / 28,204 (incl. differential) / 32,575 / 36,601 (incl. brake fluid, four tires, alignment) / 40,554 / 44,755 / 49,228 (incl. front + rear brake pads/rotors) / 55,850 / 60,955 / 67,271 / 73,134 (Johnson Honda: differential + transfer case + TRANSMISSION FLUID CHANGED ✓) / 78,874 / 84,411 / 89,637 / 95,747 (incl. coolant flush). Minor flag: documented oil interval 6,539 → 28,204 early in life (interim visits at 13,374 and 20,610 list inspection/filters only); cadence after that is a tight ~4–6k.
+- Recalls on this report: only TWO recall events in the car's life — 23V858000 fuel pump (issued Jan 2024, remedy available, completion not shown) and 26V365000 rear subframe (issued Jun 2026, open). NO 23V751 rod-bearing recall entry appears for this VIN — evidence (not proof) the VIN is outside the recall population. PE25008 still technically covers 2016–2020 Pilots outside the recall, so the engine-scoped PPI stands as the gate.
+- Timing belt: NOT documented anywhere — original belt, due ~105k mi (5,467 mi away) and by time now. Budget $1,000–1,500.
+- Timeline: duplicate title Apr 2026; "vehicle offered for sale" May 18, 2026; GA emissions passed Jun 3, 2026 — the car has been at/through the Newnan lot since spring 2026 (~5 months), which supports negotiation room.
+- Dealer note: Auto Barn LLC's own CARFAX dealer rating is 2.0/5.0 (13 reviews) — get every figure in writing and do the PPI off-site.
