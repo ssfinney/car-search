@@ -53,3 +53,10 @@ Muse completed its stage (VIN, recalls, complaints, listing liveness) and set `r
 ## Muse verification — 2026-10-25 (evening)
 - **Listing re-verified live tonight:** dealer page shows this VIN/stock PB002358, price **$28,258**, mileage **85,371**, Radiant Red / black, FWD — all unchanged.
 - **Gates unchanged:** written delivered OTD with the $439 FL tag fee removed, VIN-specific recall completion (23V735000 first), independent PPI. CARFAX already read clean by Claude (see final evaluation above).
+
+## OTD update — 2026-10-28 (Stephen-reported, recorded by Claude)
+- Stephen reports **~$29,600 OTD after Georgia taxes** ("or so" — approximate; not yet a written, unconditional quote). That is ~$400 under the ~$30k ceiling.
+- Payment at $29,600: **~$244/mo at $17k down (net ~+$114 after the $130 refi offset)**; **~$224/mo at $18k down (net ~+$94)** — passes the net-under-$100 rule at $18k down only.
+- Position: now the only **current-generation (2023) Pilot inside the ceiling** — IIHS small overlap G/G, updated side G, updated frontal M, headlights G, pedestrian AEB Superior (2023 Pilot); CR 2023 "about average". Safest Pilot on the board and, unlike the Carvana cars, can be inspected before purchase.
+- Note: on 2026-10-28 Claude found the listing page still up (85,371 mi) but with its price block missing — confirm availability.
+- Remaining gates: confirm the car is still for sale; get the ~$29,600 in writing with the $439 FL tag fee and the $3,279 "Premier Package" excluded; Honda campaign printout (23V735000 steering first); independent PPI near Wesley Chapel before any deposit; ask for the 71k→85k maintenance explanation.
