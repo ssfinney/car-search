@@ -1,0 +1,14 @@
+# 2023 Honda Pilot Touring FWD — Athens GA (Butler-pitched; CARFAX provided by Bulldog Kia)
+
+- **Status:** vin-checked
+- **Dealer/location:** SELLER TO CONFIRM — Stephen reports Butler is pitching this car; the CARFAX report was provided free by Bulldog Kia, 4305 Atlanta Hwy, Athens GA (~85 mi from Macon). Physical location and selling store unconfirmed.
+- **Price:** NO written figure. Stephen's estimate: ~$36,000 OTD by default — ~$6,100 over the ~$29,900 OTD that passes the net rule at $18k down. Parked on price unless the dealer meets Wesley Chapel money (~$29,600).
+- **Mileage:** 65,245 (CARFAX last reported 08/12/2026); Stephen reports ~66k, presumably current listing mileage.
+- **Color:** Black (DMV records) — non-white ✓
+- **Seating:** 2023 Touring = second-row bench with REMOVABLE center seat (stowable under cargo floor) — qualifies under the framework per Stephen's 2026-10-28 question and Muse's Honda-source verification. Gate: confirm the middle seat is physically present/stowed in the car.
+- **Power liftgate:** Touring equipment (hands-free power tailgate per Honda spec); not verified on this car.
+- **VIN:** 5FNYG2H77PB003162 — CARFAX-verified 2023 Pilot Touring FWD, 3.5L V6 DOHC, 10-speed automatic. vPIC decode still to run.
+- **History:** CARFAX read 2026-10-28 (history/athens-2023-pilot-touring/carfax-read-2026-10-28.md): 1 owner, personal, Columbus GA; NO accidents/damage; title guaranteed clean; NO open recalls reported (23V735 not open on this VIN per CARFAX; Honda printout still the closer); 12 service records, ALL at Mike Patton Auto Family, Lagrange GA; oil every ~5-8k mi (CARFAX "Well Maintained — Regular Oil Changes"); four tires replaced + brake fluid flush at 41,123 mi (01/2025). NO transmission fluid service documented at 65,245 mi — 10-speed ATF due around this mileage; PPI verdict + budget a change. High use rate: 19,424 mi/yr. Timing belt runway ~40k mi.
+
+## Log
+- 2026-10-28 — Filed by Muse from the CARFAX PDF Stephen supplied (report run 10/28/26) after Stephen reported Butler pitching the car at a high price. History is the best-documented of any 2023 on the board and dominates the Wesley Chapel EX-L on trim, miles (65k vs 85k), and distance IF price were equal — it is not: ~$36k OTD estimated vs ~$29.6k Wesley Chapel target. Only live play is a written counter anchored to Wesley Chapel's actual OTD quote (received by Stephen 2026-10-28; figure not yet on file). Gates: seller/location confirmation, written OTD, middle-seat presence, Honda campaign printout, PPI with ATF verdict.
