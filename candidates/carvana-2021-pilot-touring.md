@@ -22,9 +22,10 @@ Muse completed its stage and set `ready-for-evaluation`; this is Claude's evalua
 - **History:** 1 personal owner, Snellville GA, no accidents, clean title — and **zero documented service in 84,790 mi** on a 9-speed car. Nothing proves neglect; nothing proves care.
 - **Versus Lake City 2021 Highlander:** $1,527 cheaper (~$250 after the belt budget) with 2.5k fewer miles, G headlights and a roomier third row. Lake City has the better crash/AEB evidence, 19 service records and no belt. **A trade, not dominance** — but on the guide's priorities (safety, documented condition) Lake City is ahead at nearly the same money.
 - **Versus Carvana 2021 Pilot Elite:** $1,068 cheaper, 4.9k fewer miles, no salt history; the Elite has 13 dealer service records, AWD and Elite equipment. Choose on what the PPIs find.
-- **Mitigant:** Carvana's 7-day / 400-mi return window lets the PPI happen after delivery with an exit.
+- **Protocol conflict — needs Stephen's explicit call:** PROTOCOL requires an independent PPI *before any deposit*. Carvana sells without a pre-purchase inspection (purchase, then delivery or pickup, then a 7-day / 400-mi return window), so this car **cannot clear the PPI gate in the protocol's order**. The return window is an unwind right after purchase, not a substitute for the gate, and returns can carry costs. Pursuing it means Stephen knowingly accepting a post-purchase PPI inside the window as an exception.
 - **Verdict: evaluated — on frontier as the price floor for a 2021+ car; pursue only with a PPI that gives explicit ATF and engine-oil verdicts.** Clean fluids → defensible value pick; burnt ATF, sludge or shift flare → return it.
 
 ## Log
 - 2026-10-27 (Muse): CARFAX read; clean on paper, empty on service evidence. Advanced lead → ready-for-evaluation with the fluid-verdict gate flagged. Stephen to notify Claude.
 - 2026-10-28 (Claude): Evaluation complete — ON FRONTIER as the lowest-price 2021+ car; PPI fluid verdicts decide it; behind Lake City on safety and documentation. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
+- 2026-10-28 (Claude): Corrected own evaluation per PR #11 review — Carvana's return window is no longer presented as satisfying the PPI-before-deposit gate; flagged as a protocol exception for Stephen.
