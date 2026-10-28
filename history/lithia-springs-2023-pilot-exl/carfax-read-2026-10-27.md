@@ -1,0 +1,10 @@
+# Verification — Lithia Springs 2023 Honda Pilot EX-L AWD (AutoNation Honda Thornton Road)
+
+Verified by Muse 2026-10-27 via the live dealer page + its CARFAX badge link (read-only). VIN 5FNYG1H52PB004969, stock PB004969. Lunar Silver Metallic / gray leather, AWD, 64,530 mi (dealer page; CARFAX last reading 64,535 on 10/06/2026).
+
+- Price build on the page: vehicle $30,797 + dealer service fee $999 + electronic filing fee $199 = $31,995 AutoNation 1Price. Tax/tag/title NOT included. So the filed "$31,995 pre-tax" already contains $1,198 of fees; OTD = 1Price + GA TAVT (~7%) + $38 → Muse estimate ~$34,100–34,200 (Stephen's rough figure: ~$33k — his number sits at the optimistic end; TAVT base treatment decides). Either way it is $3,400–4,600 over Wesley Chapel's ~$29,600 OTD.
+- Captain's chairs: PHOTO-CONFIRMED (photo 29 of 30: two separate second-row seats, open carpeted walk-through; specs state "Rear seats: captain"). Power liftgate: confirmed in specs ("Power liftgate"). This independently corroborates Stephen's 2026-10-27 confirmation.
+- CARFAX (report run 10/27/26): 1 owner, personal lease, owned in Georgia, ~19,116 mi/yr, 3 yrs 4 mo. NO accidents or damage reported; no total loss/structural/airbag; title brands guaranteed No Problem; odometer clean; NO open recalls reported. 15 service records. One timeline curiosity: glass repaired 10/22/2025 at Caliber Auto Glass, Lewisville TX (glass only; not a damage report).
+- Dealer prep 09/09/2026 at 64,530 mi included pre-delivery inspection, oil/filter, TRANSMISSION SERVICE/FLUID, brake fluid, alignment, rotation/balance, filters — documented 10-speed ATF service.
+- On sale since 09/04/2026 (CARFAX "vehicle offered for sale") — ~7.5 weeks; page shows 28 views in past 7 days. Not Honda-certified. AutoNation money-back: 5 days / 250 miles.
+- Standing: best-documented 2023 EX-L of the three now tracked (clean CARFAX, chairs + liftgate confirmed, ATF serviced, AWD, fewest miles) — parked on price alone. Revival = written OTD at/under ~$29,600 (Wesley Chapel match) or Stephen's ceiling call.
