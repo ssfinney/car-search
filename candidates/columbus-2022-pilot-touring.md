@@ -26,3 +26,4 @@
 
 ## Log
 - 2026-10-28 — Muse full stage: dealer price confirmed, CARFAX read (accident = minor sideswipe, front/right-front, 04/03/2026), chairs photo-confirmed, ATF service documented twice. Advanced lead → ready-for-evaluation (appended entry; original filing log above).
+- 2026-10-29 — Overnight sweep caution: re-confirmed live at $27,191 / 81,755 mi with chairs re-confirmed, BUT the dealer page carries disclaimers referencing $2,000 trade assistance (2016+ trade-in) and a $2,000 GM Financial incentive that are not reconciled with the itemized $2,959 discount in this file. Treat $27,191 as NOT proven unconditional until the dealer's worksheet shows the price stands without a trade and without GM Financial financing. Directly relevant to the CCP negotiation on this car.
