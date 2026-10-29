@@ -28,3 +28,4 @@
 
 ## Log
 - 2026-10-28 — Muse full stage: dealer price confirmed, CARFAX read, chairs photo-confirmed. Advanced lead → ready-for-evaluation (appended entry; original filing log above).
+- 2026-10-29 — CCP update (Muse audit of CCP's updated sheet, linked by Stephen): CCP obtained a written OTD of $29,765.46 (their 'Proposal.pdf'). Inside the $29,900 walk-away, $1,265 over the $28,500 target; nets ~$97/mo at $18k down, ~$117 at $17k. No movement yet (initial = current). Gates unchanged: Honda campaign printout, then independent PPI before any non-refundable money.
