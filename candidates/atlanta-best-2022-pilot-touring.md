@@ -1,6 +1,6 @@
 # 2022 Honda Pilot Touring 7-Passenger FWD — Atlanta Best Used Cars, Peachtree Corners GA
 
-- **Status:** ready-for-evaluation
+- **Status:** vin-checked — HELD (title brand unverified; see 2026-10-29 hold entry)
 - **Dealer/location:** Atlanta Best Used Cars, 5141 Buford Highway Northeast, Peachtree Corners, GA 30071 · ~77 straight-line miles from Macon, GA 31210 (driving distance longer; well inside the 300-mile radius)
 - **Listing:** https://www.atlantabestusedcars.com/inventory/used-2022-honda-pilot-touring-7-passenger-5fnyf5h6xnb002385-in-peachtree-corners-ga
 - **Price:** $21,000 + $79 electronic filing fee + $799 documentation fee = **$21,878 retail** (dealer page, 2026-10-29). Not an OTD quote — Georgia TAVT/title still to be added by the dealer. Headroom to the ~$30,000 ceiling on the retail figure alone is about $8,100 before tax/title.
@@ -37,3 +37,8 @@
 - VIN check (Muse, 2026-10-29, repo NHTSA tooling): vPIC confirms 2022 HONDA Pilot TOURING-7, 4x2, 7 seats, 3.5L V6, ErrorCode 0, check digit correct. **VIN CONFIRMED** — decode matches the claimed year/trim/drivetrain.
 - Listing LIVE at the confirmed price on the dealer page 2026-10-29. Advanced lead → vin-checked → ready-for-evaluation in this filing. Claude notification is Stephen's step per his specified handoff (he notifies Claude himself); no evaluation Issue was opened by this filing.
 - Remaining gates before any decision: captain's-chair photo confirmation (Claude, evaluation stage), written unconditional OTD, CARFAX read (including owner-location history for the 26V365000 rear-subframe corrosion campaign, which covers salt-belt states), Honda VIN-specific campaign completion printout, independent PPI. No deposit, hold, or purchase — Stephen decides.
+
+## Hold — 2026-10-29 (Muse)
+- The ready-for-evaluation status set by the 2026-10-29 overnight sweep is SUPERSEDED. This filing's dealer, price ($21,878) and mileage (68,918) are identical to the 2022 Pilot Touring the 2026-10-28 sweep eliminated at this same dealer for a LEMON title; the sweep's dedup baseline was a stale local copy that did not contain that elimination.
+- Title check run 2026-10-29: the dealer listing links NO history report (no CARFAX, no AutoCheck), and the listing text states nothing about title, owners, accidents, or recalls. The title question is UNRESOLVED — absence of a report is not evidence of a clean title.
+- Operating assumption until a real title check (dealer-provided CARFAX or a paid report) says otherwise: this is the eliminated lemon-title car. Do NOT advance to evaluation and do NOT notify Claude on this car. Chairs/liftgate also remain text-only.
