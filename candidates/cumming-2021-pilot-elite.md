@@ -18,3 +18,4 @@
 
 - 2026-10-28 — Filed by Muse at `vin-checked` from a listing link and $31,000 OTD figure Stephen supplied. Muse stage completed in one pass: vPIC decode clean (ELITE / AWD / 9-speed), dealer-site crawl done, CARFAX read in full (history/), captain's chairs photo-confirmed from dealer photos. Remaining gates: (1) written itemized OTD reconciling $31,000 vs the ~$32,074 page build; (2) Honda VIN campaign printout (CARFAX shows no open recalls for this VIN — printout confirms, incl. 26V365000 status); (3) independent PPI (Canton rule). Awaiting Stephen's decision on advancing to ready-for-evaluation and on the price target.
 - 2026-10-29 — CCP update (Muse audit): written OTD moved $32,119.46 → $31,757.16 (−$362.30; quote PDFs on file with CCP). Still $1,857 over the $29,900 walk-away. CCP sheet shows online price $28,788.
+- 2026-10-29 (evening) — CCP update #2: OTD $31,757.16 → $31,217.45 (−$539.71; 'final OTD.pdf'). Still $1,317 over the $29,900 walk-away.
