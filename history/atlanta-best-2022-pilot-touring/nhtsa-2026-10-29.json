@@ -1,0 +1,89 @@
+{
+ "vin": "5FNYF5H6XNB002385",
+ "vpic": {
+  "vin": "5FNYF5H6XNB002385",
+  "status": "ok",
+  "error": "",
+  "make": "HONDA",
+  "model": "Pilot",
+  "year": "2022",
+  "trim": "TOURING-7",
+  "series": "",
+  "body_class": "Sport Utility Vehicle [SUV]/Multipurpose Vehicle [MPV]",
+  "doors": "5",
+  "seats": "7",
+  "drive_type": "4x2",
+  "engine_cylinders": "6",
+  "displacement_l": "3.5",
+  "fuel_type": "Gasoline",
+  "plant_country": "UNITED STATES (USA)",
+  "plant_state": "ALABAMA",
+  "plant_city": "LINCOLN",
+  "error_code": "0",
+  "error_text": "0 - VIN decoded clean. Check Digit (9th position) is correct"
+ },
+ "recalls": {
+  "status": "ok",
+  "count": 5,
+  "campaigns": [
+   {
+    "campaign_number": "23V431000",
+    "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+    "summary": "Honda (American Honda Motor Co.) is recalling certain 2018-2023 Odyssey, 2019-2022 Pilot, and 2019-2023 Passport vehicles.  Due to a faulty Media Oriented Systems Transport (MOST) communication coaxial cable connector, the rearview camera image may not appear on the display.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+    "consequence": "A rearview camera that does not display an image can reduce the driver's rear view, increasing the risk of a crash or injury.",
+    "remedy": "Dealers will replace the MOST cable harness and install a straightening cover over the vehicle cable connector, free of charge.  Owner notification letters were mailed July 24, 2023.  Owners may contact Honda customer service at 1-888-234-2138. Honda's numbers for this recall are EEL, ZEM, and SFC."
+   },
+   {
+    "campaign_number": "23V458000",
+    "component": "SERVICE BRAKES, HYDRAULIC:FOUNDATION COMPONENTS:MASTER CYLINDER",
+    "summary": "Honda (American Honda Motor Co.) is recalling certain 2020-2021 Civic, 2020-2023 Ridgeline, 2021-2023 Passport, 2021-2022 Pilot, and 2020 Acura MDX vehicles.  The tie rod fastener that connects the brake booster and the brake master cylinder may have been improperly assembled during manufacturing, which can cause the brake master cylinder to separate from the booster assembly.",
+    "consequence": "Brake master cylinder separation can cause a loss of brake function and increase the risk of a crash.",
+    "remedy": "Dealers will inspect and repair the brake booster assembly as necessary, free of charge.  Owner notification letters were mailed August 7, 2023.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's numbers for this recall are VEU, AEV, and ZET."
+   },
+   {
+    "campaign_number": "24V064000",
+    "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+    "summary": "Honda (American Honda Motor Co.) is recalling certain 2020-2022 Pilot, Accord, Civic sedan, HR-V, Odyssey, 2020 Civic coupe, Fit, 2021-2022 Civic hatchback, 2021 Civic Type R, Insight, 2020-2021 CR-V, CR-V Hybrid, Passport, Ridgeline, Accord Hybrid, 2020 Acura MDX, 2022 Acura MDX, 2020-2022 Acura RDX, and 2020-2021 Acura TLX vehicles.  The front passenger seat weight sensor may crack and short circuit, failing to suppress the air bag as intended.",
+    "consequence": "An air bag that deploys unintentionally during a crash can increase the risk of injury.",
+    "remedy": "Dealers will replace the seat weight sensors, free of charge.  Owner notification letters were mailed March 28, 2024.  This is a phased recall.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's numbers for these recalls are XHP and VHQ."
+   },
+   {
+    "campaign_number": "26V332000",
+    "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+    "summary": "Honda (American Honda Motor Co.) is recalling certain 2018-2021, 2023 Acura TLX, 2019-2024 RDX, 2017-2020, 2022-2026 MDX, 2017-2021, 2023, 2025 Honda Ridgeline, 2017-2022 Pilot, 2019-2021 Passport, 2018-2026 Odyssey, 2019-2022 Insight, 2019-2021 HR-V, 2018-2020 Fit, 2020-2022 CR-V Hybrid, 2017-2022 CR-V, 2017-2018, 2021 Civic Type R, 2017-2021 Civic hatchback, 2016-2020 Civic coupe, 2016-2022 Civic, 2017-2022 Accord Hybrid, and 2016-2022 Accord vehicles. The front passenger seat weight sensor may crack and short circuit, which can cause the air bags to deploy unintentionally during a crash.",
+    "consequence": "Air bags that deploy unintentionally during a crash increase the risk of injury.",
+    "remedy": "Dealers will replace the seat weight sensors, free of charge. Owner notification letters were mailed July 7, 2026. Owners may contact Honda's customer service at 1-888-234-2138. Honda's numbers for this recall are BOL, WO9, OOA, WOM, XOH, NOC, POD, BOE, UOF, POB, EOG, AOI, QO8, TOJ, DO7, and SOK. This recall expands previous NHTSA recall number 24V064. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning May 29, 2026."
+   },
+   {
+    "campaign_number": "26V365000",
+    "component": "STRUCTURE:FRAME AND MEMBERS",
+    "summary": "American Honda Motor Company (Honda) is recalling certain 2016-2022 Honda Pilot, 2017-2023 Ridgeline, 2019-2023 Passport, and 2014-2020 Acura MDX vehicles that were sold in Connecticut, Delaware, District of Columbia, Illinois, Indiana, Iowa, Kentucky, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island, Vermont, Virginia, West Virginia, or Wisconsin. The rear subframe may corrode at the suspension mounting points, which can result in rear suspension component failure.",
+    "consequence": "Failure of rear suspension components, such as the rear control arm, can cause a loss of vehicle handling and control, increasing the risk of a crash or injury.",
+    "remedy": "Dealers will inspect the rear subframe and install a rear subframe reinforcement kit and, as necessary, repair or replace the rear subframe components, free of charge. Interim letters notifying owners of the safety risk were mailed July 27, 2026. Additional letters will be sent once the final remedy is available, anticipated in the fall of 2026. Owners may contact Honda's customer service at 1-888-234-2138. Honda's numbers for this recall are AOU and AOT. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning June 10, 2026."
+   }
+  ]
+ },
+ "complaints": {
+  "status": "ok",
+  "count": 171,
+  "patterns": {
+   "FORWARD COLLISION AVOIDANCE": 45,
+   "ELECTRICAL SYSTEM": 40,
+   "UNKNOWN OR OTHER": 37,
+   "ENGINE": 36,
+   "SERVICE BRAKES": 20,
+   "LANE DEPARTURE": 19,
+   "POWER TRAIN": 18,
+   "VEHICLE SPEED CONTROL": 11,
+   "STEERING": 9,
+   "FUEL/PROPULSION SYSTEM": 9
+  },
+  "top_issues": [
+   "FORWARD COLLISION AVOIDANCE (45)",
+   "ELECTRICAL SYSTEM (40)",
+   "UNKNOWN OR OTHER (37)",
+   "ENGINE (36)",
+   "SERVICE BRAKES (20)"
+  ]
+ }
+}

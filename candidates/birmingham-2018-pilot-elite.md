@@ -1,6 +1,6 @@
 # 2018 Honda Pilot Elite AWD — Tameron Honda (Hoover), Birmingham AL
 
-- **Status:** lead
+- **Status:** ready-for-evaluation
 - **Dealer/location:** Tameron Honda - Hoover, Birmingham AL · ~180 mi from Macon
 - **Listing:** https://www.cargurus.com/details/461963632 (CarGurus, 10 days at check 2026-10-28)
 - **Price:** $23,998 list. Muse OTD estimate ~$26,400 — above the pivot-tier OTD cap as priced.
@@ -13,3 +13,4 @@
 
 ## Log
 - 2026-10-28 — Filed by Muse at `lead` from the 2026-10-28 Pilot sweep. vPIC verified same day. Gates: 23V751 applicability by VIN, belt documentation, dealer photo check, full history read, dealer-page price confirmation, engine-scoped PPI.
+- 2026-10-28 — Repo-watch Muse stage (independent re-verification): vPIC re-decode confirms 2018 HONDA Pilot Elite AWD, 3.5L V6, 9-speed automatic, ErrorCode 0, check digit correct — matches filed claims. NHTSA 2018 Pilot model-year: 7 recalls (incl. 23V751000 rod-bearing, 23V858000 fuel pump, 26V365000 frame), 440 complaints (top: ENGINE 69, FUEL SYSTEM 53). CarGurus listing confirmed live 2026-10-28 at $23,998 / 82,982 mi, Tameron Honda - Hoover, no mismatch (live page presence is not a dealer in-stock confirmation). History report: history/birmingham-2018-pilot-elite/vin-check-2026-10-28.md. Status lead → ready-for-evaluation. Remaining gates unchanged: 23V751 VIN printout + engine-scoped PPI, belt documentation, dealer photo check, full history read, dealer-page price confirmation, chairs photo check, PPI.
