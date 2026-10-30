@@ -1,6 +1,6 @@
 # 2022 Honda Pilot Touring-7 FWD — SONS Chevrolet, Columbus GA
 
-- **Status:** ready-for-evaluation
+- **Status:** evaluated
 - **Dealer/location:** SONS Chevrolet, Columbus GA · ~73 mi from Macon (closest sweep find)
 - **Listing:** https://www.cargurus.com/details/460886788 (CarGurus, 22 days at check 2026-10-28)
 - **Price:** $27,191 list. Muse OTD estimate ~$29,800 — at the ceiling edge; written figure governs.
@@ -26,5 +26,22 @@
 
 ## Log
 - 2026-10-28 — Muse full stage: dealer price confirmed, CARFAX read (accident = minor sideswipe, front/right-front, 04/03/2026), chairs photo-confirmed, ATF service documented twice. Advanced lead → ready-for-evaluation (appended entry; original filing log above).
+
+## Claude evaluation — 2026-10-28
+
+Muse completed its stage and set `ready-for-evaluation`; this is Claude's evaluation-stage verdict and advances the status to `evaluated`. Payments: 60 mo at 6% (× 0.01933280153); "net" subtracts the $130/mo Mazda refi offset (Stephen's net-under-$100 rule). OTD here is Muse's estimate until a written quote exists. Comparison figures: Wesley Chapel 2023 Pilot EX-L ~$29,600 (Stephen, approximate; ~$30,450 shipped) — Stephen's chosen target; Cumming 2021 Pilot Elite $31,000 (Stephen-reported, target ≤ ~$29,900); Carvana 2021 Pilot Elite $27,843 (+ ~$1,250 belt due); Carvana 2022 Pilot Touring $31,668; Lake City 2021 Highlander XLE $28,302 written. Stephen decides next.
+
+**Frontier verdict: LIKELY DOMINATED by Augusta 2022 Pilot Elite — standby.**
+
+- **Price:** $27,191 incl. fees pre-tax (dealer page); est. **~$29,115 OTD** → ~$215/mo, net ~+$85 at $18k down (passes); net ~+$104 at $17k down. Timing belt ~23k mi out (~$1,000–1,500) → effective ~$30.4k.
+- **Safety (IIHS 2016–22 Pilot):** small overlap G/A, updated side M, updated frontal not rated, headlights G (Touring/Elite), pedestrian AEB No Credit — the same older-design profile as every 2019–22 Pilot; the 2023 Pilot and the 2021 Highlander are clearly better on side and passenger-side protection.
+- **Reliability:** Claude read CR directly (2026-10-28): 2022 Pilot **"much more reliable"** — the best model-year rating of any Pilot in the search.
+- **History:** 1 owner (Alabama — outside the 26V365000 salt-state list), 18 service records, ATF changed twice (28k, 48k — none in the last ~33k mi), guaranteed title, no open recalls. **One accident: 04/03/2026 sideswipe, minor damage to front and right front**, no airbags, no structural damage reported.
+- **Versus Augusta 2022 Elite:** about the same estimated OTD (~$100 more), only ~5.4k fewer miles and ~31 mi closer — but Augusta has no accident, the belt already done (worth ~$1,250), more recent ATF service (×4), AWD and Elite trim → **likely dominated**, if Augusta's written OTD holds.
+- **Versus Carvana 2021 Elite:** a newer, better-rated year with ATF documented and no salt history, but an accident and a belt still due; a trade.
+- **Verdict: evaluated — standby.** Revisit only if Augusta falls through. Gates then: written OTD, PPI scoped to the right-front repair (panel fit, paint, suspension/alignment, tire wear), ATF condition, Honda printout.
+
+## Log
+- 2026-10-28 (Claude): Evaluation complete — LIKELY DOMINATED by Augusta 2022 Pilot Elite (accident + belt due vs none + belt done at ~equal price); standby. Status ready-for-evaluation → evaluated. Awaiting Stephen's decision.
 - 2026-10-29 — Overnight sweep caution: re-confirmed live at $27,191 / 81,755 mi with chairs re-confirmed, BUT the dealer page carries disclaimers referencing $2,000 trade assistance (2016+ trade-in) and a $2,000 GM Financial incentive that are not reconciled with the itemized $2,959 discount in this file. Treat $27,191 as NOT proven unconditional until the dealer's worksheet shows the price stands without a trade and without GM Financial financing. Directly relevant to the CCP negotiation on this car.
 - 2026-10-29 — CCP update (Muse audit): written OTD $29,127.17 (quote image on file with CCP) — inside the $29,900 walk-away, $627 over the $28,500 target; nets ~$85/mo at $18k down. CAUTION: the figure does not reconcile with the confirmed $27,191 price + $995 doc + $160 title + 7% GA TAVT (≈$30,249) — it is ~$1,122 LOWER. Worksheet audit required before relying on it: verify the quote assumes no trade-in and no GM Financial financing (dealer-page disclaimers flagged 2026-10-29). PPI scoped to the right-front repair remains a hard gate.
